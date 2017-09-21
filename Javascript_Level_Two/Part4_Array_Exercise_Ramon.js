@@ -7,19 +7,17 @@ var roster = []
 
 // Create the functions for the tasks
 function tasks(add,remove,display,quit){
-  return prompt("What would you like to do with the roster? (add,remove,display,quit)")
-  if (prompt == "add"){
+  var answer = prompt("What would you like to do with the roster? (add,remove,display,quit)")
+  if (answer == "add"){
     addNew();
   }
-  if (prompt == "remove"){
+  if (answer == "remove"){
     remove();
   }
-  if (prompt == "display"){
+  if (answer == "display"){
     display();
   }
-  if (prompt == "quit"){
-    quit();
-  }
+  return answer;
 }
 // ADD A NEW STUDENT
 
@@ -48,7 +46,7 @@ function display(){
 
 // Start by asking if they want to use the web app
 var use = prompt("Do you want to use the roster app?(y/n)")
-if (use === "y"){
+if (use == "y"){
   tasks();
 }
 // Now create a while loop that keeps asking for an action (add,remove, display or quit)
