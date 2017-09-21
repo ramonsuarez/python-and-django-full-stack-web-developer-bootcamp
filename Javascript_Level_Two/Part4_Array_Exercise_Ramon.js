@@ -8,16 +8,16 @@ var roster = []
 // Create the functions for the tasks
 function tasks(add,remove,display,quit){
   return prompt("What would you like to do with the roster? (add,remove,display,quit)")
-  if (prompt = "add"){
+  if (prompt == "add"){
     addNew();
   }
-  if (prompt = "remove"){
+  if (prompt == "remove"){
     remove();
   }
-  if (prompt = "display"){
+  if (prompt == "display"){
     display();
   }
-  if (prompt = "quit"){
+  if (prompt == "quit"){
     quit();
   }
 }
