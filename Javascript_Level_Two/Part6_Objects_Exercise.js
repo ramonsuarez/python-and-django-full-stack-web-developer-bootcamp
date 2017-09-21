@@ -8,7 +8,10 @@
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  nameLength: function(){
+    console.log(name.length);
+  }
 }
 
 // Add a method called nameLength that prints out the
