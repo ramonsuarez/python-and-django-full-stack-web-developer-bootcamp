@@ -6,19 +6,7 @@
 var roster = []
 
 // Create the functions for the tasks
-function tasks(add,remove,display,quit){
-  var answer = prompt("What would you like to do with the roster? (add,remove,display,quit)")
-  if (answer == "add"){
-    addNew();
-  }
-  if (answer == "remove"){
-    remove();
-  }
-  if (answer == "display"){
-    display();
-  }
-  return answer;
-}
+
 // ADD A NEW STUDENT
 
 // Create a function called addNew that takes in a name
@@ -51,6 +39,3 @@ if (use == "y"){
 }
 // Now create a while loop that keeps asking for an action (add,remove, display or quit)
 // Use if and else if statements to execute the correct function for each command.
-while (tasks != "quit"){
-  tasks();
-}
