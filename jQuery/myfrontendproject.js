@@ -3,10 +3,10 @@ var p1 = prompt('Name of player one?');
 var p2 = prompt('Name of player two?');
 
 // Toggle player names
-var toggle = $('h2').textContent(function(event){
-  if ($(this).text() == ('Your play ' + p1){
-    $(this).text = ('Your play ' + p2)<
+$('h2').text(function(event){
+  if ($(this).text() == ('Your play ' + p1)){
+    $(this).text() = ('Your play ' + p2);
   } else {
-    $(this).text =  ('Your play ' + p1);
+    $(this).text('Your play ' + p1);
   }
 })
