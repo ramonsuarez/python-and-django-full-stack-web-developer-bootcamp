@@ -13,3 +13,13 @@
 //     $(this).text('Your play ' + p1);
 //   }
 // })
+
+
+// Logic for changing colors of buttons
+// Based on row click, turn blue or red if grey
+
+// Capture click on row
+var testtr = $('tr').on('click', function(){
+  // Get buttons and which one is bottom grey
+  
+})
