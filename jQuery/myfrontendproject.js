@@ -19,7 +19,14 @@
 // Based on row click, turn blue or red if grey
 
 // Capture click on row
-var testtr = $('tr').on('click', function(){
-  // Get buttons and which one is bottom grey
-  
+$('tr').on('click', function(){
+  // Get column buttons
+  var column = $(this);
+  var buttons = $('.btn').column
+  // Get last empty button
+  // for (b of buttons){
+  //   if ($(b).css('background-color') == 'grey'){
+  //     console.log("hello");
+  //   }
+  // }
 })
