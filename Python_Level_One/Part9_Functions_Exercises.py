@@ -21,7 +21,7 @@
 # arrayCheck([1, 1, 2, 1, 2, 3]) → True
 
 def arrayCheck(nums):
-    # CODE GOES HERE
+    # This does not work
     if [1,2,3] in nums:
         return True
     else:
@@ -41,7 +41,7 @@ def arrayCheck(nums):
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
-  # CODE GOES HERE
+  return str[::2]
 
 
 #####################
