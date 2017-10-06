@@ -22,7 +22,10 @@
 
 def arrayCheck(nums):
     # CODE GOES HERE
-
+    if [1,2,3] in nums:
+        return True
+    else:
+        return False
 
 #####################
 ## -- PROBLEM 2 -- ##
