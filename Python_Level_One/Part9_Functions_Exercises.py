@@ -21,11 +21,7 @@
 # arrayCheck([1, 1, 2, 1, 2, 3]) → True
 
 def arrayCheck(nums):
-    # CODE GOES HERE
-    if [1,2,3] in nums:
-        return True
-    else:
-        return False
+    # Check working file p9e1.py
 
 #####################
 ## -- PROBLEM 2 -- ##
@@ -76,8 +72,10 @@ def end_other(a, b):
 # doubleChar('Hi-There') → 'HHii--TThheerree'
 
 def doubleChar(str):
-  # CODE GOES HERE
-
+    newStr = ''
+    for char in str:
+        newStr = newStr + char * 2
+    return newStr
 
 #####################
 ## -- PROBLEM 5 -- ##
