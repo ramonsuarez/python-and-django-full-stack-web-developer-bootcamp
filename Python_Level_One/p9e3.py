@@ -1,10 +1,16 @@
 def end_other(a, b):
-    print a.lower()
-    print b.lower()
-    
-    if b.lower in a.lower().split(b.lower()):
-        print('Hi Ramon')
+  aLow = str(a.lower())
+  bLow = str(b.lower())
+  lenA = len(a)
+  lenB = len(b)
+  if aLow[-3:] == bLow[-3:]:
+      return True
+  elif bLow[-3:] == aLow[-3:]:
+      return True
+  else:
+      return False
 
-end_other('Hiabc', 'abc')
-end_other('AbC', 'HiaBc')
-end_other('abc', 'abXabc')
+
+print(end_other('Hiabc', 'abc'))
+print(end_other('AbC', 'HiaBc'))
+print(end_other('abc', 'abXabc'))

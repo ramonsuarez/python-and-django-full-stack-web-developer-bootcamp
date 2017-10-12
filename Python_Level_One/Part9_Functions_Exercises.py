@@ -21,11 +21,17 @@
 # arrayCheck([1, 1, 2, 1, 2, 3]) → True
 
 def arrayCheck(nums):
-    # This does not work
-    if [1,2,3] in nums:
-        return True
-    else:
-        return False
+    ott = [1,2,3]
+    for ind, val in enumerate(nums):
+        if ind <= (len(nums)-3):
+            numSlice = [nums[ind], nums[ind+1],nums[ind+2]]
+            if numSlice == ott:
+                return True
+    return False
+print(arrayCheck([1, 1, 2, 3, 1]))
+print(arrayCheck([1, 1, 2, 4, 1]))
+print(arrayCheck([1, 1, 2, 1, 2, 3]))
+
 
 #####################
 ## -- PROBLEM 2 -- ##
@@ -41,7 +47,11 @@ def arrayCheck(nums):
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
-  return str[::2]
+    return str[::2]
+
+print(stringBits('Hello'))
+print(stringBits('Hi'))
+print(stringBits('Heeololeo'))
 
 
 #####################
@@ -62,14 +72,20 @@ def stringBits(str):
 
 
 def end_other(a, b):
-  if a == b[-a.lenght:]
-    return True
+  bLow = str(b.lower())
+  lenA = len(a)
+  lenB = len(b)
+  if aLow[-3:] == bLow[-3:]:
+      return True
+  elif bLow[-3:] == aLow[-3:]:
+      return True
   else:
-    return False
+      return False
 
-end_other('Hiabc', 'abc')
-end_other('AbC', 'HiaBc')
-end_other('abc', 'abXabc')
+
+print(end_other('Hiabc', 'abc'))
+print(end_other('AbC', 'HiaBc'))
+print(end_other('abc', 'abXabc'))
 
 #####################
 ## -- PROBLEM 4 -- ##
@@ -83,8 +99,10 @@ end_other('abc', 'abXabc')
 # doubleChar('Hi-There') → 'HHii--TThheerree'
 
 def doubleChar(str):
-  # CODE GOES HERE
-
+    newStr = ''
+    for char in str:
+        newStr = newStr + char * 2
+    return newStr
 
 #####################
 ## -- PROBLEM 5 -- ##
@@ -133,4 +151,8 @@ print (no_teen_sum(1, 2, 14))
 # count_evens([1, 3, 5]) → 0
 
 def count_evens(nums):
-  # CODE GOES HERE
+    evens = filter(lambda nums: nums % 2 == 0, nums)
+    return len(evens)
+print(count_evens([2, 1, 2, 3, 4]))
+print(count_evens([2, 2, 0]))
+print(count_evens([1, 3, 5]))
