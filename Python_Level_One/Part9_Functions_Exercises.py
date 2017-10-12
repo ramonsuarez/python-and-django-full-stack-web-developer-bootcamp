@@ -62,7 +62,14 @@ def stringBits(str):
 
 
 def end_other(a, b):
-  # CODE GOES HERE
+  if a == b[-a.lenght:]
+    return True
+  else:
+    return False
+
+end_other('Hiabc', 'abc')
+end_other('AbC', 'HiaBc')
+end_other('abc', 'abXabc')
 
 #####################
 ## -- PROBLEM 4 -- ##
