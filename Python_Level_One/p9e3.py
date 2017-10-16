@@ -1,6 +1,3 @@
-
-
-
 def end_other(a, b):
   aLow = str(a.lower())
   bLow = str(b.lower())

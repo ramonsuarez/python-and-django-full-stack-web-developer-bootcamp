@@ -72,7 +72,6 @@ print(stringBits('Heeololeo'))
 
 
 def end_other(a, b):
-  aLow = str(a.lower())
   bLow = str(b.lower())
   lenA = len(a)
   lenB = len(b)
