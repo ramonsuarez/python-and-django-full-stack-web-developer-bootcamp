@@ -3,18 +3,32 @@ print('Welcome to Code Breaker\nGuess the right 3 digit number with the help of 
 import random
 digits = list(range(10))
 random.shuffle(digits)
-target = (digits[:3])
+target = [str((digits[:3]))]
 print ('Target test: {}'.format(target))
-
+# DRY question function to get guess from user
+def question():
+    return list(str(input("What's your guess? ")))
+answer = question()
+# Test
+print(answer)
 # Ask for user's numbers until right solution
 gotIt = False
-answer = input("What's your guess? ")
-while gotIt != True:
-    answer_array = [int(i) for i in str(answer)]
-    if answer_array == target:
-        print('Ole! You guessed the number right, it was {}'.format(answer))
-        gotIt = True
-    elif (lambda x: x in set(target), answer_array ):
-        print('Here is the result of your guess:\n Match')
-        answer = input("What's your new guess? ")
-        gotIt = False
+while gotIt = False:
+    #     Close: You've guessed a correct number but in the wrong position
+    #     Match: You've guessed a correct number in the correct position
+    #     Nope: You haven't guess any of the numbers correctly
+
+
+
+    # if answer == str(target):
+    #     print('Ole! You guessed the number right, it was {}'.format(answer))
+    #     gotIt = True
+    # elif (lambda x: answer(x) not in str(target), answer):
+    #     print('Here is the result of your guess:\n Nope')
+    #     answer = question()
+    # elif (lambda x: str(target)(x) == answer(x),answer):
+    #     print('Here is the result of your guess:\n Match')
+    #     answer = question()
+    # else:
+    #     print('Here is the result of your guess:\n Close')
+    #     answer = question()
