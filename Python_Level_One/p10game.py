@@ -20,33 +20,34 @@ answer = question()[:3]
 # Match function
 def match():
     for i, a in enumerate(answer):
-        print('a: {} i: {} target[i] {}'.format(a,i, target[i]))
         if a == target[i]:
-            return True
+            return (True,)
 # # Close function
 def close():
     for i in answer:
         if i in target:
-            return True
+            return (True,)
 # Ask for user's numbers, loop until right solution
-# gotIt = False
-# while gotIt == False:
-#     # Correct answer
-#     if answer == target:
-#         print('Ole! You guessed the number right, it was {}'.format(answer))
-#         gotIt = True
-#     #     Match: You've guessed a correct number in the correct position
-#
-#     elif match() :
-#         # elif (lambda x: target(x) == answer(x),answer):
-#         print('Tip: Match')
-#         answer = question()
-#         #     Nope: You haven't guess any of the numbers correctly
-#         # elif (lambda x: answer(x) not in target, answer):
-#     elif False in close():
-#         print('Tip: Nope')
-#         answer = question()
-#         #     Close: You've guessed a correct number but in the wrong position
-#     elif True in close():
-#         print('Tip: Close')
-#         answer = question()
+gotIt = False
+while gotIt == False:
+    # Correct answer
+    if answer == target:
+        print('Ole! You guessed the number right, it was {}'.format(answer))
+        gotIt = True
+    #     Match: You've guessed a correct number in the correct position
+
+    elif match() :
+        # elif (lambda x: target(x) == answer(x),answer):
+        for True in match():
+            print('Tip: Match')
+        answer = question()[:3]
+        # elif (lambda x: answer(x) not in target, answer):
+        #     Close: You've guessed a correct number but in the wrong position
+    elif close():
+        for True in close():
+            print('Tip: Close')
+        answer = question()[:3]
+    # Nope: You haven't guess any of the numbers correctly
+    else:
+        print('Tip: Nope')
+        answer = question()[:3]
