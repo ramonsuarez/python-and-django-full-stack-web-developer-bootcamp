@@ -31,7 +31,8 @@ from random import shuffle
 # Two useful variables for creating Cards.
 SUITE = 'H D S C'.split()
 RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()
-
+# List comprehension do create deck of cards
+cards = [(r,s) for r in RANKS for s in SUITE]
 class Deck:
     """
     This is the Deck Class. This object will create a deck of cards to initiate
@@ -39,26 +40,46 @@ class Deck:
     the players. It will use SUITE and RANKS to create the deck. It should also
     have a method for splitting/cutting the deck in half and Shuffling the deck.
     """
-    pass
+    print('Shuffling')
+    # Shuffle cards in place (will change original cards list of tuples)
+    shuffle(cards)
+    # Create decks for each player. p2 is computer
+    print('Handing cards to players')
+    deck_p1 = cards[:26]
+    deck_p2 = cards[26:]
 
 class Hand:
     '''
     This is the Hand class. Each player has a Hand, and can add or remove
     cards from that hand. There should be an add and remove card method here.
     '''
-    pass
+    def __init__(self, d1, d2):
+        self.d1 = deck_p1.pop()
+        self.d2 = deck_p2.pop()
+    won_cards = []
+    lost_cards = []
+    def add_cards():
+        won.shift(self.won_cards)
+    def remove_cards():
+        lost.pop(self.lost_cards)
 
 class Player:
     """
     This is the Player class, which takes in a name and an instance of a Hand
     class object. The Payer can then play cards and check if they still have cards.
     """
-    pass
+    p1 = input('Name of human player?\t')
+    p2 = 'Computer'
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+
 
 
 ######################
 #### GAME PLAY #######
 ######################
 print("Welcome to War, let's begin...")
-
+won = []
+lost = []
 # Use the 3 classes along with some logic to play a game of war!
