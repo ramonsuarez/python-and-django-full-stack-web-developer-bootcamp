@@ -55,9 +55,12 @@ class Hand:
     This is the Hand class. Each player has a Hand, and can add or remove
     cards from that hand. There should be an add and remove card method here.
     '''
+    # I don't get it, copied from solution. How does this class know about the
+    # cards in the deck?
+
     def __init__(self,cards):
         self.cards = cards
-
+    # Return length of the deck to see how many are left
     def __str__(self):
         return "Has {} cards".format(len(self.cards))
 
