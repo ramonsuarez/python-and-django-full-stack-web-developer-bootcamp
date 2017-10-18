@@ -32,7 +32,7 @@ from random import shuffle
 SUITE = 'H D S C'.split()
 RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()
 # List comprehension do create deck of cards
-cards = [(r,s) for r in RANKS for s in SUITE]
+all_cards = [(r,s) for r in RANKS for s in SUITE]
 class Deck:
     """
     This is the Deck Class. This object will create a deck of cards to initiate
@@ -40,28 +40,32 @@ class Deck:
     the players. It will use SUITE and RANKS to create the deck. It should also
     have a method for splitting/cutting the deck in half and Shuffling the deck.
     """
-    print('Shuffling')
-    # Shuffle cards in place (will change original cards list of tuples)
-    shuffle(cards)
+    def shuffling(self):
+        print('Shuffling')
+        # Shuffle cards in place (will change original cards list of tuples)
+        shuffle(cards)
     # Create decks for each player. p2 is computer
-    print('Handing cards to players')
-    deck_p1 = cards[:26]
-    deck_p2 = cards[26:]
+    def handling(self):
+        print('Handing cards to players')
+        return deck_p1 = all_cards[:26]
+        return deck_p2 = all_cards[26:]
 
 class Hand:
     '''
     This is the Hand class. Each player has a Hand, and can add or remove
     cards from that hand. There should be an add and remove card method here.
     '''
-    def __init__(self, d1, d2):
-        self.d1 = deck_p1.pop()
-        self.d2 = deck_p2.pop()
-    won_cards = []
-    lost_cards = []
-    def add_cards():
-        won.shift(self.won_cards)
-    def remove_cards():
-        lost.pop(self.lost_cards)
+    def __init__(self,cards):
+        self.cards = cards
+
+    def __str__(self):
+        return "Has {} cards".format(len(self.cards))
+
+    def add_cards(self, won_cards):
+        self.extend(won_cards)
+
+    def remove_cards(self):
+        self.pop(lost_cards)
 
 class Player:
     """
@@ -79,7 +83,6 @@ class Player:
 ######################
 #### GAME PLAY #######
 ######################
-print("Welcome to War, let's begin...")
-won = []
-lost = []
+print("Welcome to War {}, let's begin...".format(p1))
+
 # Use the 3 classes along with some logic to play a game of war!
