@@ -47,8 +47,10 @@ class Deck:
     # Create decks for each player. p2 is computer
     def handling(self):
         print('Handing cards to players')
-        return deck_p1 = all_cards[:26]
-        return deck_p2 = all_cards[26:]
+        deck_p1 = all_cards[:26]
+        deck_p2 = all_cards[26:]
+        return deck_p1
+        return deck_p2
 
 class Hand:
     '''
@@ -77,15 +79,18 @@ class Player:
     """
     p1 = input('Name of human player?\t')
     p2 = 'Computer'
-    def __init__(self, p1, p2):
-        self.p1 = p1
-        self.p2 = p2
-
-
+    def __init__(self):
+        pass
 
 ######################
 #### GAME PLAY #######
 ######################
-print("Welcome to War {}, let's begin...".format(p1))
+p1 = Player.p1
+p2 = Player.p2
+
+print("Welcome {}. You are playing against {}\nLet's begin...WAR!".format(p1,p2))
+d = Deck()
+d.shuffling
+d.handling
 
 # Use the 3 classes along with some logic to play a game of war!
