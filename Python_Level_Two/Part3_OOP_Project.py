@@ -77,16 +77,15 @@ class Player:
     This is the Player class, which takes in a name and an instance of a Hand
     class object. The Payer can then play cards and check if they still have cards.
     """
-    p1 = input('Name of human player?\t')
-    p2 = 'Computer'
     def __init__(self):
-        pass
-
+        self.player = (input('Name of player?\t'))
+    def __str__(self):
+        return '{}'.format(self.player)
 ######################
 #### GAME PLAY #######
 ######################
-p1 = Player.p1
-p2 = Player.p2
+p1 = Player()
+p2 = 'Computer'
 
 print("Welcome {}. You are playing against {}\nLet's begin...WAR!".format(p1,p2))
 d = Deck()
