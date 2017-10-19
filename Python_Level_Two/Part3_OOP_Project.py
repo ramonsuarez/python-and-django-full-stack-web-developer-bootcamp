@@ -32,7 +32,7 @@ from random import shuffle
 SUITE = 'H D S C'.split()
 RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()
 # List comprehension do create deck of cards
-all_cards = [(r,s) for r in RANKS for s in SUITE]
+# all_cards = [(r,s) for r in RANKS for s in SUITE]
 class Deck:
     """
     This is the Deck Class. This object will create a deck of cards to initiate
@@ -40,17 +40,18 @@ class Deck:
     the players. It will use SUITE and RANKS to create the deck. It should also
     have a method for splitting/cutting the deck in half and Shuffling the deck.
     """
+    def __init__(self):
+        self.cards = [(r,s) for r in RANKS for s in SUITE]
+
     def shuffling(self):
         print('Shuffling')
         # Shuffle cards in place (will change original cards list of tuples)
-        shuffle(cards)
+        shuffle(self.cards)
     # Create decks for each player. p2 is computer
     def handling(self):
         print('Handing cards to players')
-        deck_p1 = all_cards[:26]
-        deck_p2 = all_cards[26:]
-        return deck_p1
-        return deck_p2
+        self.dp1 = self.cards[:26]
+        self.dp2 = self.cards[26:]
 
 class Hand:
     '''
@@ -60,7 +61,7 @@ class Hand:
     # I don't get it, copied from solution. How does this class know about the
     # cards in the deck?
 
-    def __init__(self,cards):
+    def __init__(self):
         self.cards = cards
     # Return length of the deck to see how many are left
     def __str__(self):
@@ -72,7 +73,7 @@ class Hand:
     def remove_cards(self):
         self.pop(lost_cards)
 
-class Player:
+class Player(Deck):
     """
     This is the Player class, which takes in a name and an instance of a Hand
     class object. The Payer can then play cards and check if they still have cards.
@@ -88,8 +89,10 @@ p1 = Player()
 p2 = 'Computer'
 
 print("Welcome {}. You are playing against {}\nLet's begin...WAR!".format(p1,p2))
-d = Deck()
-d.shuffling
-d.handling
 
+d = Deck()
+d.shuffling()
+d.handling()
+
+print(d.dp1)
 # Use the 3 classes along with some logic to play a game of war!
