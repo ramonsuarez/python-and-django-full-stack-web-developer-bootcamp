@@ -4,6 +4,6 @@
 # ... except my files
 !.gitignore
 !README.md
-!/myprojects/
+!/exercises/
 
 
