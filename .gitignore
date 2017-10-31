@@ -3,7 +3,7 @@
 /*/
 # ... except my files
 !.gitignore
-!README.txt
+!README.md
 !/myprojects/
 
 
