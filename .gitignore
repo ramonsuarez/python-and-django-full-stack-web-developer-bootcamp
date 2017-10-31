@@ -1,8 +1,0 @@
-# Ignore everything
-/*
-
-# ... except my files
-!.gitignore
-!myprojects/
-
-
