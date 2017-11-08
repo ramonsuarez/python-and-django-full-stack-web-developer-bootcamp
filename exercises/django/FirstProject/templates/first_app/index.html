@@ -3,12 +3,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>First App</title>
+    <title>Django Level 2</title>
     <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
   </head>
   <body>
-    <h1>This is index.html inside templates/first_app/</h1>
-    {{ insert_me }}
+    <h1>List of webpages/</h1>
+      <div class='djangtwo'>
+        {% if access_records %}
+        <table>
+          <thead>
+            <th>Site Name</th>
+            <th>Date Accessed</th>
+          </thead>
+          {% for acc in access_records %}
+          <tr>
+            <td>{{ acc.name }}</td>
+            <td>{{ acc.date }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+
+        {% else %}
+
+        <p>No access records found</p>
+
+        {% endif %}
+
     <img src="{% static "images/django.jpg" %}" alt="Django's hand" />
   </body>
 </html>
