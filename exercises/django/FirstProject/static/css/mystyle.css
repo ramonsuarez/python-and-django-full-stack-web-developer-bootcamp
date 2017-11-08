@@ -5,3 +5,11 @@ body {
 h1 {
   color: red;
 }
+
+.djangtwo {
+  color: white;
+}
+
+table, th, td {
+    border: 2px solid white;
+}
