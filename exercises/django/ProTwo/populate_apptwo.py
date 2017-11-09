@@ -26,7 +26,9 @@ def populate(N=5):
         fake_email = fakegen.email()
 
         # Create new User entry
-        user = User.objects.get_or_create(first_name=fake_first,last_name=fake_last, email=fake_email)[0]
+        user = User.objects.get_or_create(first_name=fake_first,
+                                            last_name=fake_last,
+                                            email=fake_email)[0]
 
 if __name__ == '__main__':
     print("Populating the databases...Please Wait")
