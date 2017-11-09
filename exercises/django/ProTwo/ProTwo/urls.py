@@ -18,7 +18,7 @@ from django.contrib import admin
 from AppTwo import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.index, name='home'),
     url(r'^admin/', admin.site.urls),
     url(r'^users/', views.users, name='users'),
     url(r'^users/user/', views.user, name='user'),
