@@ -1,17 +1,34 @@
 <!DOCTYPE html>
+{% load staticfiles %}
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>List of Users</title>
-  </head>
-  <body>
-    <h1>List of Users</h1>
-    {% if user_list %}
-      {% for u in user_list %}
-        {{u.first_name}}
+<head>
+  <meta charset="utf-8">
+  <title>List of Users</title>
+  <link rel="stylesheet" href="{% static 'css/mystyle.css' %} ">
+</head>
+<body>
+  <h1>List of Users</h1>
+  {% if user_list %}
+  <table>
+    <thead>
+      <th>First</th>
+      <th>Last</th>
+      <th>Email</th>
+    </thead>
+    {% for u in user_list %}
+      <tr>
+        <td>{{u.first_name}}</td>
+        <td>{{u.last_name}}</td>
+        <td>{{u.email}}</td>
+      </tr>
     {% endfor %}
-    {% else %}
-      <p>There are no users yet</p>
-    {% endif %}
-  </body>
+  </table>
+
+  {% else %}
+  <p>There are no users yet</p>
+  {% endif %}
+
+
+</body>
 </html>
