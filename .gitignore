@@ -1,7 +1,9 @@
 # Ignore everything
 /*
 /*/
-/__pycache__/
+__pycache__/
+*.py[cod]
+
 # ... except my files
 !.gitignore
 !README.md
