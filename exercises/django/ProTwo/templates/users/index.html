@@ -5,30 +5,17 @@
 <head>
   <meta charset="utf-8">
   <title>List of Users</title>
-  <link rel="stylesheet" href="{% static '/css/mystyle.css' %} ">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
-  <h1>List of Users</h1>
-  {% if user_list %}
-  <table>
-    <thead>
-      <th>First</th>
-      <th>Last</th>
-      <th>Email</th>
-    </thead>
-    {% for u in user_list %}
-      <tr>
-        <td>{{u.first_name}}</td>
-        <td>{{u.last_name}}</td>
-        <td>{{u.email}}</td>
-      </tr>
-    {% endfor %}
-  </table>
-
-  {% else %}
-  <p>There are no users yet</p>
-  {% endif %}
-
+  <div class='container'>
+      <h1>Sign up here:</h1>
+      <form method='POST'>
+          {{ form.as_p}}
+          {% csrf_token %}
+          <input type='submit' class='btn btn-primary' value='Submit'>
+      </form>
+  </div>
 
 </body>
 </html>

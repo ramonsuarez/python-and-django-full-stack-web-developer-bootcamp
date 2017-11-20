@@ -3,6 +3,7 @@
 /*/
 __pycache__
 db.sqlite3
+*.py[cod]
 
 # ... except my files
 !.gitignore
