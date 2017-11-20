@@ -1,7 +1,9 @@
 # Ignore everything
 /*
 /*/
-/__pycache__/
+__pycache__
+db.sqlite3
+
 # ... except my files
 !.gitignore
 !README.md
