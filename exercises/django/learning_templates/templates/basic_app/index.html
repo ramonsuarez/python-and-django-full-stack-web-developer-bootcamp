@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    <h1>Index page</h1>
-</body>
-<html>
+
+{% extends "basic_app/base.html" %}
+    {% block body_block %}
+        <h1>Welcome to Index</h1>
+        <h2>Example of template inheritance</h2>
+    {% endblock %}
