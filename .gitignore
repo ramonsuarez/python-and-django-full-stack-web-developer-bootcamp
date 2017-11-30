@@ -4,6 +4,7 @@
 __pycache__
 *db.sqlite3
 *.py[cod]
+*.swp
 
 # ... except my files
 !.gitignore
