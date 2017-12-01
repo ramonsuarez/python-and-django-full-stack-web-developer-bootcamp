@@ -1,0 +1,917 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	Django_Level_Five/learning_users/learning_users/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_Four/learning_templates/learning_templates/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_One/ProTwo/ProTwo/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_One/first_project/first_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_Three/ProTwo/ProTwo/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_Three/basicforms/basicforms/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_Two/ProTwo/ProTwo/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	Django_Level_Two/first_project/first_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	exercises/django/FirstProject/first_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	exercises/django/ProTwo/ProTwo/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	exercises/django/basicforms/basicforms/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	exercises/django/learning_templates/learning_templates/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	exercises/django/learning_users/learning_users/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Five/learning_users/learning_users/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Four/learning_templates/learning_templates/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_One/ProTwo/ProTwo/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_One/first_project/first_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Three/ProTwo/ProTwo/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Three/basicforms/basicforms/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Two/ProTwo/ProTwo/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	Django_Level_Two/first_project/first_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	exercises/django/FirstProject/first_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	exercises/django/ProTwo/ProTwo/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	exercises/django/basicforms/basicforms/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	exercises/django/learning_templates/learning_templates/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	exercises/django/learning_users/learning_users/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AccessRecord	Django_Level_Two/first_project/first_app/models.py	/^class AccessRecord(models.Model):$/;"	c
+AccessRecord	exercises/django/FirstProject/first_app/models.py	/^class AccessRecord(models.Model):$/;"	c
+Animal	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Animal():$/;"	c
+ApptwoConfig	Django_Level_One/ProTwo/appTwo/apps.py	/^class ApptwoConfig(AppConfig):$/;"	c
+ApptwoConfig	Django_Level_Three/ProTwo/appTwo/apps.py	/^class ApptwoConfig(AppConfig):$/;"	c
+ApptwoConfig	Django_Level_Two/ProTwo/appTwo/apps.py	/^class ApptwoConfig(AppConfig):$/;"	c
+ApptwoConfig	exercises/django/ProTwo/AppTwo/apps.py	/^class ApptwoConfig(AppConfig):$/;"	c
+BASE_DIR	Django_Level_Five/learning_users/learning_users/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_Four/learning_templates/learning_templates/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_One/ProTwo/ProTwo/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_One/first_project/first_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_Three/ProTwo/ProTwo/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_Three/basicforms/basicforms/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_Two/ProTwo/ProTwo/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	Django_Level_Two/first_project/first_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	exercises/django/FirstProject/first_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	exercises/django/ProTwo/ProTwo/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	exercises/django/basicforms/basicforms/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	exercises/django/learning_templates/learning_templates/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	exercises/django/learning_users/learning_users/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BasicAppConfig	Django_Level_Five/learning_users/basic_app/apps.py	/^class BasicAppConfig(AppConfig):$/;"	c
+BasicAppConfig	Django_Level_Four/learning_templates/basic_app/apps.py	/^class BasicAppConfig(AppConfig):$/;"	c
+BasicAppConfig	exercises/django/learning_templates/basic_app/apps.py	/^class BasicAppConfig(AppConfig):$/;"	c
+BasicAppConfig	exercises/django/learning_users/basic_app/apps.py	/^class BasicAppConfig(AppConfig):$/;"	c
+BasicappConfig	Django_Level_Three/basicforms/basicapp/apps.py	/^class BasicappConfig(AppConfig):$/;"	c
+BasicappConfig	exercises/django/basicforms/basicapp/apps.py	/^class BasicappConfig(AppConfig):$/;"	c
+Book	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Book():$/;"	c
+Circle	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Circle():$/;"	c
+DATABASES	Django_Level_Five/learning_users/learning_users/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_Four/learning_templates/learning_templates/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_One/ProTwo/ProTwo/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_One/first_project/first_project/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_Three/ProTwo/ProTwo/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_Three/basicforms/basicforms/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_Two/ProTwo/ProTwo/settings.py	/^DATABASES = {$/;"	v
+DATABASES	Django_Level_Two/first_project/first_project/settings.py	/^DATABASES = {$/;"	v
+DATABASES	exercises/django/FirstProject/first_project/settings.py	/^DATABASES = {$/;"	v
+DATABASES	exercises/django/ProTwo/ProTwo/settings.py	/^DATABASES = {$/;"	v
+DATABASES	exercises/django/basicforms/basicforms/settings.py	/^DATABASES = {$/;"	v
+DATABASES	exercises/django/learning_templates/learning_templates/settings.py	/^DATABASES = {$/;"	v
+DATABASES	exercises/django/learning_users/learning_users/settings.py	/^DATABASES = {$/;"	v
+DEBUG	Django_Level_Five/learning_users/learning_users/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_Four/learning_templates/learning_templates/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_One/ProTwo/ProTwo/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_One/first_project/first_project/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_Three/ProTwo/ProTwo/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_Three/basicforms/basicforms/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_Two/ProTwo/ProTwo/settings.py	/^DEBUG = True$/;"	v
+DEBUG	Django_Level_Two/first_project/first_project/settings.py	/^DEBUG = True$/;"	v
+DEBUG	exercises/django/FirstProject/first_project/settings.py	/^DEBUG = True$/;"	v
+DEBUG	exercises/django/ProTwo/ProTwo/settings.py	/^DEBUG = True$/;"	v
+DEBUG	exercises/django/basicforms/basicforms/settings.py	/^DEBUG = True$/;"	v
+DEBUG	exercises/django/learning_templates/learning_templates/settings.py	/^DEBUG = True$/;"	v
+DEBUG	exercises/django/learning_users/learning_users/settings.py	/^DEBUG = True$/;"	v
+Deck	Python_Level_Two/Part3_OOP_Project.py	/^class Deck:$/;"	c
+Deck	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^class Deck:$/;"	c
+Dog	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Dog():$/;"	c
+Dog	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Dog(Animal):$/;"	c
+FirstAppConfig	Django_Level_One/first_project/first_app/apps.py	/^class FirstAppConfig(AppConfig):$/;"	c
+FirstAppConfig	Django_Level_Two/first_project/first_app/apps.py	/^class FirstAppConfig(AppConfig):$/;"	c
+FirstAppConfig	exercises/django/FirstProject/first_app/apps.py	/^class FirstAppConfig(AppConfig):$/;"	c
+FormName	Django_Level_Three/basicforms/basicapp/forms.py	/^class FormName(forms.Form):$/;"	c
+FormName	exercises/django/basicforms/basicapp/forms.py	/^class FormName(forms.Form):$/;"	c
+Hand	Python_Level_Two/Part3_OOP_Project.py	/^class Hand:$/;"	c
+Hand	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^class Hand:$/;"	c
+INSTALLED_APPS	Django_Level_Five/learning_users/learning_users/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_Four/learning_templates/learning_templates/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_One/ProTwo/ProTwo/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_One/first_project/first_project/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_Three/ProTwo/ProTwo/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_Three/basicforms/basicforms/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_Two/ProTwo/ProTwo/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	Django_Level_Two/first_project/first_project/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	exercises/django/FirstProject/first_project/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	exercises/django/ProTwo/ProTwo/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	exercises/django/basicforms/basicforms/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	exercises/django/learning_templates/learning_templates/settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	exercises/django/learning_users/learning_users/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	Django_Level_Five/learning_users/learning_users/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_Four/learning_templates/learning_templates/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_One/ProTwo/ProTwo/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_One/first_project/first_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_Three/ProTwo/ProTwo/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_Three/basicforms/basicforms/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_Two/ProTwo/ProTwo/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	Django_Level_Two/first_project/first_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	exercises/django/FirstProject/first_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	exercises/django/ProTwo/ProTwo/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	exercises/django/basicforms/basicforms/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	exercises/django/learning_templates/learning_templates/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	exercises/django/learning_users/learning_users/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGIN_URL	Django_Level_Five/learning_users/learning_users/settings.py	/^LOGIN_URL = '\/basic_app\/user_login\/'$/;"	v
+MEDIA_DIR	Django_Level_Five/learning_users/learning_users/settings.py	/^MEDIA_DIR = os.path.join(BASE_DIR,'media')$/;"	v
+MEDIA_DIR	exercises/django/learning_users/learning_users/settings.py	/^MEDIA_DIR = os.path.join(BASE_DIR, 'media')$/;"	v
+MEDIA_ROOT	Django_Level_Five/learning_users/learning_users/settings.py	/^MEDIA_ROOT = MEDIA_DIR$/;"	v
+MEDIA_ROOT	exercises/django/learning_users/learning_users/settings.py	/^MEDIA_ROOT = MEDIA_DIR$/;"	v
+MEDIA_URL	Django_Level_Five/learning_users/learning_users/settings.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MEDIA_URL	exercises/django/learning_users/learning_users/settings.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MIDDLEWARE	Django_Level_Five/learning_users/learning_users/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_Four/learning_templates/learning_templates/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_One/ProTwo/ProTwo/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_One/first_project/first_project/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_Three/ProTwo/ProTwo/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_Three/basicforms/basicforms/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_Two/ProTwo/ProTwo/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	Django_Level_Two/first_project/first_project/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	exercises/django/FirstProject/first_project/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	exercises/django/ProTwo/ProTwo/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	exercises/django/basicforms/basicforms/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	exercises/django/learning_templates/learning_templates/settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	exercises/django/learning_users/learning_users/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	Django_Level_Five/learning_users/basic_app/forms.py	/^    class Meta():$/;"	c	class:UserForm
+Meta	Django_Level_Five/learning_users/basic_app/forms.py	/^    class Meta():$/;"	c	class:UserProfileInfoForm
+Meta	Django_Level_Three/ProTwo/appTwo/forms.py	/^    class Meta():$/;"	c	class:NewUserForm
+Meta	exercises/django/ProTwo/AppTwo/forms.py	/^    class Meta():$/;"	c	class:NewUserForm
+Meta	exercises/django/learning_users/basic_app/forms.py	/^    class Meta():$/;"	c	class:UserForm
+Meta	exercises/django/learning_users/basic_app/forms.py	/^    class Meta():$/;"	c	class:UserProfileInfoForm
+Migration	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^class Migration(migrations.Migration):$/;"	c
+NewUserForm	Django_Level_Three/ProTwo/appTwo/forms.py	/^class NewUserForm(forms.ModelForm):$/;"	c
+NewUserForm	exercises/django/ProTwo/AppTwo/forms.py	/^class NewUserForm(forms.ModelForm):$/;"	c
+PASSWORD_HASHERS	Django_Level_Five/learning_users/learning_users/settings.py	/^PASSWORD_HASHERS = [$/;"	v
+PASSWORD_HASHERS	exercises/django/learning_users/learning_users/settings.py	/^PASSWORD_HASHERS = [$/;"	v
+Player	Python_Level_Two/Part3_OOP_Project.py	/^class Player:$/;"	c
+Player	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^class Player:$/;"	c
+RANKS	Python_Level_Two/Part3_OOP_Project.py	/^RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()$/;"	v
+RANKS	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^RANKS = '2 3 4 5 6 7 8 9 10 J Q K A'.split()$/;"	v
+ROOT_URLCONF	Django_Level_Five/learning_users/learning_users/settings.py	/^ROOT_URLCONF = 'learning_users.urls'$/;"	v
+ROOT_URLCONF	Django_Level_Four/learning_templates/learning_templates/settings.py	/^ROOT_URLCONF = 'learning_templates.urls'$/;"	v
+ROOT_URLCONF	Django_Level_One/ProTwo/ProTwo/settings.py	/^ROOT_URLCONF = 'ProTwo.urls'$/;"	v
+ROOT_URLCONF	Django_Level_One/first_project/first_project/settings.py	/^ROOT_URLCONF = 'first_project.urls'$/;"	v
+ROOT_URLCONF	Django_Level_Three/ProTwo/ProTwo/settings.py	/^ROOT_URLCONF = 'ProTwo.urls'$/;"	v
+ROOT_URLCONF	Django_Level_Three/basicforms/basicforms/settings.py	/^ROOT_URLCONF = 'basicforms.urls'$/;"	v
+ROOT_URLCONF	Django_Level_Two/ProTwo/ProTwo/settings.py	/^ROOT_URLCONF = 'ProTwo.urls'$/;"	v
+ROOT_URLCONF	Django_Level_Two/first_project/first_project/settings.py	/^ROOT_URLCONF = 'first_project.urls'$/;"	v
+ROOT_URLCONF	exercises/django/FirstProject/first_project/settings.py	/^ROOT_URLCONF = 'first_project.urls'$/;"	v
+ROOT_URLCONF	exercises/django/ProTwo/ProTwo/settings.py	/^ROOT_URLCONF = 'ProTwo.urls'$/;"	v
+ROOT_URLCONF	exercises/django/basicforms/basicforms/settings.py	/^ROOT_URLCONF = 'basicforms.urls'$/;"	v
+ROOT_URLCONF	exercises/django/learning_templates/learning_templates/settings.py	/^ROOT_URLCONF = 'learning_templates.urls'$/;"	v
+ROOT_URLCONF	exercises/django/learning_users/learning_users/settings.py	/^ROOT_URLCONF = 'learning_users.urls'$/;"	v
+SECRET_KEY	Django_Level_Five/learning_users/learning_users/settings.py	/^SECRET_KEY = 'q2lra#ddiscy17p3t-&^m1+ic#xba!6zkyfe-&*d#+vh!%q*ev'$/;"	v
+SECRET_KEY	Django_Level_Four/learning_templates/learning_templates/settings.py	/^SECRET_KEY = '^786)$6f8j4%)mbpb&azs#8cq0m9sb-@or%c+81g)8s&r6d4dp'$/;"	v
+SECRET_KEY	Django_Level_One/first_project/first_project/settings.py	/^SECRET_KEY = '*zcf0y(glp!jr52!@bkzpi9koehj=8ml7c!xk8#uqi4)7cs02e'$/;"	v
+SECRET_KEY	Django_Level_Three/basicforms/basicforms/settings.py	/^SECRET_KEY = '07gm2_rwkr5rryuieeq0s9z3z44lu57d8+hj^04@7ljktc+3$4'$/;"	v
+SECRET_KEY	Django_Level_Two/first_project/first_project/settings.py	/^SECRET_KEY = '*zcf0y(glp!jr52!@bkzpi9koehj=8ml7c!xk8#uqi4)7cs02e'$/;"	v
+SECRET_KEY	exercises/django/FirstProject/first_project/settings.py	/^SECRET_KEY = '^xlnm$17y$-@^j^q@#hrxqo!n=!w7nn3jk22@e7^@-2ae=(ze!'$/;"	v
+SECRET_KEY	exercises/django/ProTwo/ProTwo/settings.py	/^SECRET_KEY = '#l$4%zyvca3sd$-tb$z)p$q7wqylu8ae5e=!z@smf_l4e67jjd'$/;"	v
+SECRET_KEY	exercises/django/basicforms/basicforms/settings.py	/^SECRET_KEY = '29o*90*3m$lf(k*e@&2s9n2u2gwbd_jq6t0g=f$zzu#p2hhx#@'$/;"	v
+SECRET_KEY	exercises/django/learning_templates/learning_templates/settings.py	/^SECRET_KEY = 'cxr$6v6qm4+_#mxj!f59a9!+_(1himu^4)q8z-m9q7)flhlp%c'$/;"	v
+STATICFILES_DIRS	Django_Level_Five/learning_users/learning_users/settings.py	/^STATICFILES_DIRS = [STATIC_DIR,]$/;"	v
+STATICFILES_DIRS	Django_Level_One/first_project/first_project/settings.py	/^STATICFILES_DIRS = [$/;"	v
+STATICFILES_DIRS	Django_Level_Two/first_project/first_project/settings.py	/^STATICFILES_DIRS = [$/;"	v
+STATICFILES_DIRS	exercises/django/FirstProject/first_project/settings.py	/^STATICFILES_DIRS = [$/;"	v
+STATICFILES_DIRS	exercises/django/ProTwo/ProTwo/settings.py	/^STATICFILES_DIRS = [$/;"	v
+STATICFILES_DIRS	exercises/django/learning_users/learning_users/settings.py	/^STATICFILES_DIRS = [STATIC_DIR, ]$/;"	v
+STATIC_DIR	Django_Level_Five/learning_users/learning_users/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR,'static')$/;"	v
+STATIC_DIR	Django_Level_One/first_project/first_project/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR,"static")$/;"	v
+STATIC_DIR	Django_Level_Two/first_project/first_project/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR,"static")$/;"	v
+STATIC_DIR	exercises/django/FirstProject/first_project/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR, "static")$/;"	v
+STATIC_DIR	exercises/django/ProTwo/ProTwo/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR, "static")$/;"	v
+STATIC_DIR	exercises/django/learning_users/learning_users/settings.py	/^STATIC_DIR = os.path.join(BASE_DIR, 'static')$/;"	v
+STATIC_URL	Django_Level_Five/learning_users/learning_users/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_Four/learning_templates/learning_templates/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_One/ProTwo/ProTwo/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_One/first_project/first_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_Three/ProTwo/ProTwo/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_Three/basicforms/basicforms/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_Two/ProTwo/ProTwo/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	Django_Level_Two/first_project/first_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	exercises/django/FirstProject/first_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	exercises/django/ProTwo/ProTwo/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	exercises/django/basicforms/basicforms/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	exercises/django/learning_templates/learning_templates/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	exercises/django/learning_users/learning_users/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SUITE	Python_Level_Two/Part3_OOP_Project.py	/^SUITE = 'H D S C'.split()$/;"	v
+SUITE	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^SUITE = 'H D S C'.split()$/;"	v
+Sample	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^class Sample():$/;"	c
+TEMPLATES	Django_Level_Five/learning_users/learning_users/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_Four/learning_templates/learning_templates/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_One/ProTwo/ProTwo/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_One/first_project/first_project/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_Three/ProTwo/ProTwo/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_Three/basicforms/basicforms/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_Two/ProTwo/ProTwo/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	Django_Level_Two/first_project/first_project/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	exercises/django/FirstProject/first_project/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	exercises/django/ProTwo/ProTwo/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	exercises/django/basicforms/basicforms/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	exercises/django/learning_templates/learning_templates/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	exercises/django/learning_users/learning_users/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES_DIR	exercises/django/learning_users/learning_users/settings.py	/^TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_Five/learning_users/learning_users/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_Four/learning_templates/learning_templates/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_One/ProTwo/ProTwo/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_One/first_project/first_project/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")$/;"	v
+TEMPLATE_DIR	Django_Level_Three/ProTwo/ProTwo/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_Three/basicforms/basicforms/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_Two/ProTwo/ProTwo/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')$/;"	v
+TEMPLATE_DIR	Django_Level_Two/first_project/first_project/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")$/;"	v
+TEMPLATE_DIR	exercises/django/FirstProject/first_project/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TEMPLATE_DIR	exercises/django/ProTwo/ProTwo/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TEMPLATE_DIR	exercises/django/basicforms/basicforms/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TEMPLATE_DIR	exercises/django/learning_templates/learning_templates/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TIME_ZONE	Django_Level_Five/learning_users/learning_users/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_Four/learning_templates/learning_templates/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_One/ProTwo/ProTwo/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_One/first_project/first_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_Three/ProTwo/ProTwo/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_Three/basicforms/basicforms/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_Two/ProTwo/ProTwo/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	Django_Level_Two/first_project/first_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	exercises/django/FirstProject/first_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	exercises/django/ProTwo/ProTwo/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	exercises/django/basicforms/basicforms/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	exercises/django/learning_templates/learning_templates/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	exercises/django/learning_users/learning_users/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+Topic	Django_Level_Two/first_project/first_app/models.py	/^class Topic(models.Model):$/;"	c
+Topic	exercises/django/FirstProject/first_app/models.py	/^class Topic(models.Model):$/;"	c
+USE_I18N	Django_Level_Five/learning_users/learning_users/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_Four/learning_templates/learning_templates/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_One/ProTwo/ProTwo/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_One/first_project/first_project/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_Three/ProTwo/ProTwo/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_Three/basicforms/basicforms/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_Two/ProTwo/ProTwo/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	Django_Level_Two/first_project/first_project/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	exercises/django/FirstProject/first_project/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	exercises/django/ProTwo/ProTwo/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	exercises/django/basicforms/basicforms/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	exercises/django/learning_templates/learning_templates/settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	exercises/django/learning_users/learning_users/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	Django_Level_Five/learning_users/learning_users/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_Four/learning_templates/learning_templates/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_One/ProTwo/ProTwo/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_One/first_project/first_project/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_Three/ProTwo/ProTwo/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_Three/basicforms/basicforms/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_Two/ProTwo/ProTwo/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	Django_Level_Two/first_project/first_project/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	exercises/django/FirstProject/first_project/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	exercises/django/ProTwo/ProTwo/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	exercises/django/basicforms/basicforms/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	exercises/django/learning_templates/learning_templates/settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	exercises/django/learning_users/learning_users/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	Django_Level_Five/learning_users/learning_users/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_Four/learning_templates/learning_templates/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_One/ProTwo/ProTwo/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_One/first_project/first_project/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_Three/ProTwo/ProTwo/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_Three/basicforms/basicforms/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_Two/ProTwo/ProTwo/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	Django_Level_Two/first_project/first_project/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	exercises/django/FirstProject/first_project/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	exercises/django/ProTwo/ProTwo/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	exercises/django/basicforms/basicforms/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	exercises/django/learning_templates/learning_templates/settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	exercises/django/learning_users/learning_users/settings.py	/^USE_TZ = True$/;"	v
+User	Django_Level_Three/ProTwo/appTwo/models.py	/^class User(models.Model):$/;"	c
+User	Django_Level_Two/ProTwo/appTwo/models.py	/^class User(models.Model):$/;"	c
+User	exercises/django/ProTwo/AppTwo/models.py	/^class User(models.Model):$/;"	c
+UserForm	Django_Level_Five/learning_users/basic_app/forms.py	/^class UserForm(forms.ModelForm):$/;"	c
+UserForm	exercises/django/learning_users/basic_app/forms.py	/^class UserForm(forms.Form):$/;"	c
+UserProfileInfo	Django_Level_Five/learning_users/basic_app/models.py	/^class UserProfileInfo(models.Model):$/;"	c
+UserProfileInfo	exercises/django/learning_users/basic_app/models.py	/^class UserProfileInfo(models.Model):$/;"	c
+UserProfileInfoForm	Django_Level_Five/learning_users/basic_app/forms.py	/^class UserProfileInfoForm(forms.ModelForm):$/;"	c
+UserProfileInfoForm	exercises/django/learning_users/basic_app/forms.py	/^class UserProfileInfoForm(forms.ModelForm):$/;"	c
+WSGI_APPLICATION	Django_Level_Five/learning_users/learning_users/settings.py	/^WSGI_APPLICATION = 'learning_users.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_Four/learning_templates/learning_templates/settings.py	/^WSGI_APPLICATION = 'learning_templates.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_One/ProTwo/ProTwo/settings.py	/^WSGI_APPLICATION = 'ProTwo.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_One/first_project/first_project/settings.py	/^WSGI_APPLICATION = 'first_project.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_Three/ProTwo/ProTwo/settings.py	/^WSGI_APPLICATION = 'ProTwo.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_Three/basicforms/basicforms/settings.py	/^WSGI_APPLICATION = 'basicforms.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_Two/ProTwo/ProTwo/settings.py	/^WSGI_APPLICATION = 'ProTwo.wsgi.application'$/;"	v
+WSGI_APPLICATION	Django_Level_Two/first_project/first_project/settings.py	/^WSGI_APPLICATION = 'first_project.wsgi.application'$/;"	v
+WSGI_APPLICATION	exercises/django/FirstProject/first_project/settings.py	/^WSGI_APPLICATION = 'first_project.wsgi.application'$/;"	v
+WSGI_APPLICATION	exercises/django/ProTwo/ProTwo/settings.py	/^WSGI_APPLICATION = 'ProTwo.wsgi.application'$/;"	v
+WSGI_APPLICATION	exercises/django/basicforms/basicforms/settings.py	/^WSGI_APPLICATION = 'basicforms.wsgi.application'$/;"	v
+WSGI_APPLICATION	exercises/django/learning_templates/learning_templates/settings.py	/^WSGI_APPLICATION = 'learning_templates.wsgi.application'$/;"	v
+WSGI_APPLICATION	exercises/django/learning_users/learning_users/settings.py	/^WSGI_APPLICATION = 'learning_users.wsgi.application'$/;"	v
+Webpage	Django_Level_Two/first_project/first_app/models.py	/^class Webpage(models.Model):$/;"	c
+Webpage	exercises/django/FirstProject/first_app/models.py	/^class Webpage(models.Model):$/;"	c
+__del__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __del__(self):$/;"	m	class:Book	file:
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self):$/;"	m	class:Animal
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self):$/;"	m	class:Dog
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self, radius=1):$/;"	m	class:Circle
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self, title, author, pages):$/;"	m	class:Book
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self,breed):$/;"	m	class:Dog
+__init__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __init__(self,breed,name):$/;"	m	class:Dog
+__init__	Python_Level_Two/Part3_OOP_Project.py	/^    def __init__(self):$/;"	m	class:Deck
+__init__	Python_Level_Two/Part3_OOP_Project.py	/^    def __init__(self,cards):$/;"	m	class:Hand
+__init__	Python_Level_Two/Part3_OOP_Project.py	/^    def __init__(self,name,hand):$/;"	m	class:Player
+__init__	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def __init__(self):$/;"	m	class:Deck
+__init__	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def __init__(self,cards):$/;"	m	class:Hand
+__init__	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def __init__(self,name,hand):$/;"	m	class:Player
+__len__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __len__(self):$/;"	m	class:Book	file:
+__str__	Django_Level_Five/learning_users/basic_app/models.py	/^    def __str__(self):$/;"	m	class:UserProfileInfo	file:
+__str__	Django_Level_Two/first_project/first_app/models.py	/^    def __str__(self):$/;"	m	class:AccessRecord	file:
+__str__	Django_Level_Two/first_project/first_app/models.py	/^    def __str__(self):$/;"	m	class:Topic	file:
+__str__	Django_Level_Two/first_project/first_app/models.py	/^    def __str__(self):$/;"	m	class:Webpage	file:
+__str__	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def __str__(self):$/;"	m	class:Book	file:
+__str__	Python_Level_Two/Part3_OOP_Project.py	/^    def __str__(self):$/;"	m	class:Hand	file:
+__str__	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def __str__(self):$/;"	m	class:Hand	file:
+__str__	exercises/django/FirstProject/first_app/models.py	/^    def __str__(self):$/;"	m	class:AccessRecord	file:
+__str__	exercises/django/FirstProject/first_app/models.py	/^    def __str__(self):$/;"	m	class:Topic	file:
+__str__	exercises/django/FirstProject/first_app/models.py	/^    def __str__(self):$/;"	m	class:Webpage	file:
+__str__	exercises/django/learning_users/basic_app/models.py	/^    def __str__(self):$/;"	m	class:UserProfileInfo	file:
+a	Javascript_Level_Two/Part5_Objects.js	/^var mess = { a: "hello", b: ['x','y','z'] , c: {'inside': [ 4 ,5, ["weird"]]}};$/;"	p	class:mess
+a	Python_Level_One/Part1_Numbers.py	/^a = 10$/;"	v
+a	Python_Level_One/Part1_Numbers.py	/^a = 5$/;"	v
+a	Python_Level_One/Part1_Numbers.py	/^a = a + a$/;"	v
+a	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^a = True$/;"	v
+add	Python_Level_Two/Part3_OOP_Project.py	/^    def add(self,added_cards):$/;"	m	class:Hand
+add	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def add(self,added_cards):$/;"	m	class:Hand
+addEvenOnly	Python_Level_One/Part8_Functions.py	/^def addEvenOnly(num1,num2):$/;"	f
+add_topic	Django_Level_Two/first_project/populate_first_app.py	/^def add_topic():$/;"	f
+add_topic	exercises/django/FirstProject/populate_first_app.py	/^def add_topic():$/;"	f
+age	JavaScript_Level_One/MyPart9.js	/^var age = prompt("How old are you?");$/;"	v
+age	JavaScript_Level_One/Part9.js	/^var age = prompt("How old are you?");$/;"	v
+age	Javascript_Level_Two/Part6_Objects_Exercise.js	/^  job: "Programmer",$/;"	p	class:employee
+age	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^  job: "Programmer",$/;"	p	class:employee
+age	Python_Level_One/Part6_Exercise_Review.py	/^age = 4$/;"	v
+age	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^age = 4$/;"	v
+age	exercises/js1/MyPart9.js	/^var age = prompt("How old are you?");$/;"	v
+age	exercises/js2/Part6_Objects_Exercise.js	/^  job: "Programmer",$/;"	p	class:employee
+ages	Python_Level_One/Part7_Control_Flow_Lecture.py	/^ages = {"Sam":3,"Frank":4,"Dan":29}$/;"	v
+answer	Python_Level_One/p10game.py	/^answer = question()[:3]$/;"	v
+answer	exercises/python1/p10game.py	/^answer = question()[:3]$/;"	v
+app_name	Django_Level_Five/learning_users/basic_app/urls.py	/^app_name = 'basic_app'$/;"	v
+app_name	Django_Level_Four/learning_templates/basic_app/urls.py	/^app_name = 'basic_app'$/;"	v
+app_name	exercises/django/learning_templates/basic_app/urls.py	/^app_name = 'basic_app'$/;"	v
+app_name	exercises/django/learning_users/basic_app/urls.py	/^app_name = 'basic_app'$/;"	v
+application	Django_Level_Five/learning_users/learning_users/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_Four/learning_templates/learning_templates/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_One/ProTwo/ProTwo/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_One/first_project/first_project/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_Three/ProTwo/ProTwo/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_Three/basicforms/basicforms/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_Two/ProTwo/ProTwo/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	Django_Level_Two/first_project/first_project/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	exercises/django/FirstProject/first_project/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	exercises/django/ProTwo/ProTwo/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	exercises/django/basicforms/basicforms/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	exercises/django/learning_templates/learning_templates/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	exercises/django/learning_users/learning_users/wsgi.py	/^application = get_wsgi_application()$/;"	v
+area	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def area(self):$/;"	m	class:Circle
+arrayCheck	Python_Level_One/Part9_Functions_Exercises.py	/^def arrayCheck(nums):$/;"	f
+arrayCheck	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def arrayCheck(nums):$/;"	f
+arrayCheck	Python_Level_One/p9e1.py	/^def arrayCheck(nums):$/;"	f
+arrayCheck	exercises/python1/p9e1.py	/^def arrayCheck(nums):$/;"	f
+awesomeAdder	Javascript_Level_Two/Part3_Arrays.js	/^function awesomeAdder(name){$/;"	f
+b	Javascript_Level_Two/Part5_Objects.js	/^var mess = { a: "hello", b: ['x','y','z'] , c: {'inside': [ 4 ,5, ["weird"]]}};$/;"	p	class:mess
+b	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^b = None$/;"	v
+background	jQuery/Part1_Basic_jQuery.js	/^  "color":"white",$/;"	p	class:newCSS
+bark	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def bark(self):$/;"	m	class:Dog
+book	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^book = Book("Python Rocks!", "Jose Portilla", 159)$/;"	v
+border	jQuery/Part1_Basic_jQuery.js	/^  "background":"blue",$/;"	p	class:newCSS
+botcatcher	exercises/django/basicforms/basicapp/forms.py	/^    botcatcher = forms.CharField(required=False,$/;"	v	class:FormName
+c	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^c = Circle()$/;"	v
+c_card	Python_Level_Two/Part3_OOP_Project.py	/^    c_card = comp.play_card()$/;"	v
+c_card	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    c_card = comp.play_card()$/;"	v
+carAlert	Javascript_Level_Two/Part5_Objects.js	/^  model: "Camry" ,$/;"	m	class:carInfo
+carAlert	Javascript_Level_Two/Part5_Objects.js	/^  model: "Camry" ,$/;"	m	class:carInfo.carAlert
+caught_speeding	Javascript_Level_Two/Part2_Function_Exercises.js	/^function caught_speeding(speed, is_birthday){$/;"	f
+caught_speeding	exercises/js2/Part2_Function_Exercises.js	/^function caught_speeding(speed, is_birthday){$/;"	f
+changeColor	jQuery/Part3_FrontEndProject.js	/^function changeColor(rowIndex,colIndex,color) {$/;"	f
+changeHeaderColor	Document_Object_Model/Part1_Color_Changer.js	/^function changeHeaderColor(){$/;"	f
+changeMarker	Document_Object_Model/tictactoe.js	/^function changeMarker(){$/;"	f
+checkBottom	jQuery/Part3_FrontEndProject.js	/^function checkBottom(colIndex) {$/;"	f
+check_for_z	exercises/django/basicforms/basicapp/forms.py	/^def check_for_z(value):$/;"	f
+clearBoard	Document_Object_Model/Part4_Game.js	/^function clearBoard() {$/;"	f
+close	Python_Level_One/p10game.py	/^def close():$/;"	f
+close	exercises/python1/p10game.py	/^def close():$/;"	f
+clueReport	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^    clueReport = generate_clues(guess,secretCode)$/;"	v
+clueReport	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^clueReport = []$/;"	v
+color	jQuery/Part1_Basic_jQuery.js	/^var newCSS = {$/;"	p	class:newCSS
+colorMatchCheck	jQuery/Part3_FrontEndProject.js	/^function colorMatchCheck(one,two,three,four){$/;"	f
+comp	Python_Level_Two/Part3_OOP_Project.py	/^comp = Player("computer",Hand(half1))$/;"	v
+comp	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^comp = Player("computer",Hand(half1))$/;"	v
+count_evens	Python_Level_One/Part9_Functions_Exercises.py	/^def count_evens(nums):$/;"	f
+count_evens	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def count_evens(nums):$/;"	f
+count_evens	Python_Level_One/p9e6.py	/^def count_evens(nums):$/;"	f
+count_evens	exercises/python1/p9e6.py	/^def count_evens(nums):$/;"	f
+countries	Javascript_Level_Two/Part3_Arrays.js	/^var countries = [$/;"	v
+country1	Javascript_Level_Two/Part3_Arrays.js	/^var country1= "USA"$/;"	v
+currentColor	jQuery/Part3_FrontEndProject.js	/^var currentColor = player1Color;$/;"	v
+currentName	jQuery/Part3_FrontEndProject.js	/^var currentName = player1;$/;"	v
+currentPlayer	jQuery/Part3_FrontEndProject.js	/^var currentPlayer = 1;$/;"	v
+cut	exercises/django/learning_templates/basic_app/templatetags/my_extras.py	/^def cut(value, arg):$/;"	f
+d	Python_Level_One/Part4_Dictionaries.py	/^d = {'key1':1,'key2':2,'key3':3}$/;"	v
+d	Python_Level_One/Part4_Dictionaries.py	/^d = {'key1':{'nestkey':{'subnestkey':'value'}}}$/;"	v
+d	Python_Level_One/Part4_Dictionaries.py	/^d = {}$/;"	v
+d	Python_Level_One/Part8_Functions.py	/^d = {'k1':1,'k2':2}$/;"	v
+d	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^d = Dog()$/;"	v
+d	Python_Level_Two/Part3_OOP_Project.py	/^d = Deck()$/;"	v
+d	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^d = Deck()$/;"	v
+d1	Python_Level_One/Part6_Exercise_Review.py	/^d1 = {'simple_key':'hello'}$/;"	v
+d1	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^d1 = {'simple_key':'hello'}$/;"	v
+d2	Python_Level_One/Part6_Exercise_Review.py	/^d2 = {'k1':{'k2':'hello'}}$/;"	v
+d2	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^d2 = {'k1':{'k2':'hello'}}$/;"	v
+d3	Python_Level_One/Part6_Exercise_Review.py	/^d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}$/;"	v
+d3	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}$/;"	v
+date	Django_Level_Two/first_project/first_app/models.py	/^    date = models.DateField()$/;"	v	class:AccessRecord
+date	exercises/django/FirstProject/first_app/models.py	/^    date = models.DateField()$/;"	v	class:AccessRecord
+dependencies	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^    dependencies = [$/;"	v	class:Migration
+deposit	JavaScript_Level_One/Part1_Javascript_Basics.js	/^var deposit = 50;$/;"	v
+diagonalWinCheck	jQuery/Part3_FrontEndProject.js	/^function diagonalWinCheck() {$/;"	f
+digits	Python_Level_One/Part10_Simple_Game.py	/^digits = list(range(10))$/;"	v
+digits	Python_Level_One/p10game.py	/^digits = list(range(10))$/;"	v
+digits	exercises/python1/p10game.py	/^digits = list(range(10))$/;"	v
+display	Javascript_Level_Two/Part4_Array_Exercise_Ramon.js	/^function display(){$/;"	f
+display	Javascript_Level_Two/Part4_Array_Exercise_SOLUTION.js	/^function display(){$/;"	f
+display	Javascript_Level_Two/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+display	exercises/js2/Part4_Array_Exercise_Ramon.js	/^function display(){$/;"	f
+display	exercises/js2/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+doubleChar	Python_Level_One/Part9_Functions_Exercises.py	/^def doubleChar(str):$/;"	f
+doubleChar	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def doubleChar(str):$/;"	f
+doubleChar	Python_Level_One/p9e4.py	/^def doubleChar(str):$/;"	f
+doubleChar	exercises/python1/p9e4.py	/^def doubleChar(str):$/;"	f
+eat	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def eat(self):$/;"	m	class:Animal
+email	Django_Level_Three/ProTwo/appTwo/models.py	/^    email = models.EmailField(max_length=254,unique=True)$/;"	v	class:User
+email	Django_Level_Three/basicforms/basicapp/forms.py	/^    email = forms.EmailField()$/;"	v	class:FormName
+email	Django_Level_Two/ProTwo/appTwo/models.py	/^    email = models.EmailField(max_length=254,unique=True)$/;"	v	class:User
+email	exercises/django/ProTwo/AppTwo/models.py	/^    email = models.CharField(max_length=264, unique=True)$/;"	v	class:User
+email	exercises/django/basicforms/basicapp/forms.py	/^    email = forms.EmailField()$/;"	v	class:FormName
+end_other	Python_Level_One/Part9_Functions_Exercises.py	/^def end_other(a, b):$/;"	f
+end_other	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def end_other(a, b):$/;"	f
+end_other	Python_Level_One/p9e3.py	/^def end_other(a, b):$/;"	f
+end_other	exercises/python1/p9e3.py	/^def end_other(a, b):$/;"	f
+evenBool	Python_Level_One/Part8_Functions.py	/^def evenBool(num):$/;"	f
+evenCheck	Python_Level_One/Part8_Functions.py	/^def evenCheck(num):$/;"	f
+evens	Python_Level_One/Part8_Functions.py	/^evens = filter(evenBool,my_list)$/;"	v
+evens	Python_Level_One/Part8_Functions.py	/^evens = filter(lambda num: num%2==0,my_list)$/;"	v
+f	Python_Level_Two/Part1_Scope.py	/^f = lambda x:x**2$/;"	v
+f	Python_Level_Two/Part4_Errors_and_Exceptions.py	/^    f = open('testfile','r')$/;"	v
+f	Python_Level_Two/Part4_Errors_and_Exceptions.py	/^    f = open('testfile','w')$/;"	v
+f	Python_Level_Two/Part4_Errors_and_Exceptions.py	/^   f = open("testfile", "w")$/;"	v
+fakegen	Django_Level_Three/ProTwo/populate_users.py	/^fakegen = Faker()$/;"	v
+fakegen	Django_Level_Two/ProTwo/populate_users.py	/^fakegen = Faker()$/;"	v
+fakegen	Django_Level_Two/first_project/populate_first_app.py	/^fakegen = Faker()$/;"	v
+fakegen	exercises/django/FirstProject/populate_first_app.py	/^fakegen = Faker()$/;"	v
+fakegen	exercises/django/ProTwo/populate_apptwo.py	/^fakegen = Faker()$/;"	v
+field	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^            field=models.ImageField(blank=True, upload_to='profile_pics'),$/;"	v	class:Migration
+field	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='first_app.Webpage'),$/;"	v	class:Migration
+field	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='first_app.Webpage'),$/;"	v	class:Migration
+fields	Django_Level_Five/learning_users/basic_app/forms.py	/^        fields = ('portfolio_site','profile_pic')$/;"	v	class:UserProfileInfoForm.Meta
+fields	Django_Level_Five/learning_users/basic_app/forms.py	/^        fields = ('username','email','password')$/;"	v	class:UserForm.Meta
+fields	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	Django_Level_Three/ProTwo/appTwo/forms.py	/^        fields = '__all__'$/;"	v	class:NewUserForm.Meta
+fields	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	exercises/django/ProTwo/AppTwo/forms.py	/^        fields = '__all__'$/;"	v	class:NewUserForm.Meta
+fields	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	exercises/django/learning_users/basic_app/forms.py	/^        fields = ('portfolio_site', 'profile_pic')$/;"	v	class:UserProfileInfoForm.Meta
+fields	exercises/django/learning_users/basic_app/forms.py	/^        fields = ('username', 'email', 'password')$/;"	v	class:UserForm.Meta
+first	JavaScript_Level_One/MyPart9.js	/^var first = prompt("What's your first name?");$/;"	v
+first	exercises/js1/MyPart9.js	/^var first = prompt("What's your first name?");$/;"	v
+firstName	JavaScript_Level_One/Part9.js	/^var firstName = prompt("Hello and Welcome. Please enter your first name:");$/;"	v
+first_col	Python_Level_One/Part3_Lists.py	/^first_col = [row[0] for row in matrix]$/;"	v
+first_name	Django_Level_Three/ProTwo/appTwo/models.py	/^    first_name = models.CharField(max_length=128)$/;"	v	class:User
+first_name	Django_Level_Two/ProTwo/appTwo/models.py	/^    first_name = models.CharField(max_length=128)$/;"	v	class:User
+first_name	exercises/django/ProTwo/AppTwo/models.py	/^    first_name = models.CharField(max_length=264)$/;"	v	class:User
+fix_teen	Python_Level_One/Part9_Functions_Exercises.py	/^def fix_teen(n):$/;"	f
+fix_teen	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def fix_teen(n):$/;"	f
+fix_teen	Python_Level_One/p9e5.py	/^def fix_teen(n):$/;"	f
+fix_teen	exercises/python1/p9e5.py	/^def fix_teen(n):$/;"	f
+form_name_view	Django_Level_Three/basicforms/basicapp/views.py	/^def form_name_view(request):$/;"	f
+form_name_view	exercises/django/basicforms/basicapp/views.py	/^def form_name_view(request):$/;"	f
+frank	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^frank = Dog(breed='Huskie')$/;"	v
+func	Python_Level_Two/Part1_Scope.py	/^def func():$/;"	f
+func	Python_Level_Two/Part1_Scope.py	/^def func(x):$/;"	f
+func	Python_Level_Two/Part5_Decorators.py	/^def func():$/;"	f
+func	Python_Level_Two/Part7_Name_and_Main/one.py	/^def func():$/;"	f
+func_in_mymodule	Python_Level_Two/Part6_Modules_and_Packages/mymodule.py	/^def func_in_mymodule():$/;"	f
+func_needs_decorator	Python_Level_Two/Part5_Decorators.py	/^def func_needs_decorator():$/;"	f
+func_needs_decorator	Python_Level_Two/Part5_Decorators.py	/^func_needs_decorator = new_decorator(func_needs_decorator)$/;"	v
+gameEnd	jQuery/Part3_FrontEndProject.js	/^function gameEnd(winningPlayer) {$/;"	f
+game_on	jQuery/Part3_FrontEndProject.js	/^var game_on = true;$/;"	v
+generate_clues	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^def generate_clues(code,userGuess):$/;"	f
+generate_code	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^def generate_code():$/;"	f
+getRadius	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def getRadius(self):$/;"	m	class:Circle
+get_guess	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^def get_guess():$/;"	f
+giveMeHello	Python_Level_One/Part8_Functions.py	/^def giveMeHello():$/;"	f
+gotIt	Python_Level_One/p10game.py	/^gotIt = False$/;"	v
+gotIt	exercises/python1/p10game.py	/^gotIt = False$/;"	v
+greet	Python_Level_Two/Part1_Scope.py	/^def greet():$/;"	f
+greet	Python_Level_Two/Part5_Decorators.py	/^    def greet():$/;"	f	function:hello
+greet	Python_Level_Two/Part5_Decorators.py	/^greet = hello$/;"	v
+greeting	JavaScript_Level_One/Part1_Javascript_Basics.js	/^var greeting = "Welcome back: ";$/;"	v
+guess	Python_Level_One/Part10_Simple_Game.py	/^guess = input("What is your guess? ")$/;"	v
+guess	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^    guess = get_guess()$/;"	v
+height	JavaScript_Level_One/MyPart9.js	/^var height = prompt("How tall are you in cm?");$/;"	v
+height	JavaScript_Level_One/Part9.js	/^var height = prompt("How tall are you in centimeters?");$/;"	v
+height	exercises/js1/MyPart9.js	/^var height = prompt("How tall are you in cm?");$/;"	v
+hello	Javascript_Level_Two/Part1_Functions.js	/^function hello(){$/;"	f
+hello	Javascript_Level_Two/myscript.js	/^function hello(){$/;"	f
+hello	Python_Level_One/Part8_Functions.py	/^def hello():$/;"	f
+hello	Python_Level_Two/Part1_Scope.py	/^    def hello():$/;"	f	function:greet
+hello	Python_Level_Two/Part5_Decorators.py	/^def hello():$/;"	f
+hello	Python_Level_Two/Part5_Decorators.py	/^def hello(name='Jose'):$/;"	f
+hello	exercises/js2/myscript.js	/^function hello(){$/;"	f
+helloYou	Python_Level_One/Part8_Functions.py	/^def helloYou(name="Default Name"):$/;"	f
+help	Django_Level_One/ProTwo/appTwo/views.py	/^def help(request):$/;"	f
+help	exercises/django/ProTwo/AppTwo/views.py	/^def help(request):$/;"	f
+horizontalWinCheck	jQuery/Part3_FrontEndProject.js	/^function horizontalWinCheck() {$/;"	f
+i	Python_Level_One/Part7_Control_Flow_Lecture.py	/^    i = i+1$/;"	v
+i	Python_Level_One/Part7_Control_Flow_Lecture.py	/^i = 1$/;"	v
+index	Django_Level_Five/learning_users/basic_app/views.py	/^def index(request):$/;"	f
+index	Django_Level_Four/learning_templates/basic_app/views.py	/^def index(request):$/;"	f
+index	Django_Level_One/ProTwo/appTwo/views.py	/^def index(request):$/;"	f
+index	Django_Level_One/first_project/first_app/views.py	/^def index(request):$/;"	f
+index	Django_Level_Three/ProTwo/appTwo/views.py	/^def index(request):$/;"	f
+index	Django_Level_Three/basicforms/basicapp/views.py	/^def index(request):$/;"	f
+index	Django_Level_Two/ProTwo/appTwo/views.py	/^def index(request):$/;"	f
+index	Django_Level_Two/first_project/first_app/views.py	/^def index(request):$/;"	f
+index	exercises/django/FirstProject/first_app/views.py	/^def index(request):$/;"	f
+index	exercises/django/ProTwo/AppTwo/views.py	/^def index(request):$/;"	f
+index	exercises/django/basicforms/basicapp/views.py	/^def index(request):$/;"	f
+index	exercises/django/learning_templates/basic_app/views.py	/^def index(request):$/;"	f
+index	exercises/django/learning_users/basic_app/views.py	/^def index(request):$/;"	f
+initial	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+job	Javascript_Level_Two/Part6_Objects_Exercise.js	/^  name: "John Smith",$/;"	p	class:employee
+job	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^  name: "John Smith",$/;"	p	class:employee
+job	exercises/js2/Part6_Objects_Exercise.js	/^  name: "John Smith",$/;"	p	class:employee
+kilos	JavaScript_Level_One/MyPart3.js	/^var kilos = pounds * 0.454;$/;"	v
+kilos	JavaScript_Level_One/ramonpart3.js	/^var kilos = pounds*0.454;$/;"	v
+kilos	exercises/js1/MyPart3.js	/^var kilos = pounds * 0.454;$/;"	v
+kilos	exercises/js1/ramonpart3.js	/^var kilos = pounds*0.454;$/;"	v
+l	Python_Level_One/Part3_Lists.py	/^l = [1,2,3]$/;"	v
+l	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^l = [1,1,2,2,3,4,5,6,1,1]$/;"	v
+l	Python_Level_One/Part6_Exercise_Review.py	/^l = [3,7,[1,4,'hello']]$/;"	v
+l	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^l = [3,7,[1,4,'hello']]$/;"	v
+l	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^l = [1,2,3]$/;"	v
+last	JavaScript_Level_One/MyPart9.js	/^var last = prompt("What's your last name?");$/;"	v
+last	exercises/js1/MyPart9.js	/^var last = prompt("What's your last name?");$/;"	v
+lastName	JavaScript_Level_One/Part9.js	/^var lastName = prompt("Please enter your Last Name:");$/;"	v
+lastName	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^  age: 31,$/;"	m	class:employee
+last_name	Django_Level_Three/ProTwo/appTwo/models.py	/^    last_name = models.CharField(max_length=128)$/;"	v	class:User
+last_name	Django_Level_Two/ProTwo/appTwo/models.py	/^    last_name = models.CharField(max_length=128)$/;"	v	class:User
+last_name	exercises/django/ProTwo/AppTwo/models.py	/^    last_name = models.CharField(max_length=264)$/;"	v	class:User
+lastname	Javascript_Level_Two/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+lastname	exercises/js2/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+letter	Python_Level_One/Part2_Strings.py	/^letter = 'z'$/;"	v
+listItems	jQuery/Part1_Basic_jQuery.js	/^var listItems = $('li');$/;"	v
+lst	Python_Level_One/Part8_Functions.py	/^lst = [1,2,3]$/;"	v
+lst_1	Python_Level_One/Part3_Lists.py	/^lst_1=[1,2,3]$/;"	v
+lst_2	Python_Level_One/Part3_Lists.py	/^lst_2=[4,5,6]$/;"	v
+lst_3	Python_Level_One/Part3_Lists.py	/^lst_3=[7,8,9]$/;"	v
+luckySum	Javascript_Level_Two/Part2_Function_Exercises.js	/^function luckySum(a, b, c){$/;"	f
+luckySum	Javascript_Level_Two/Part2_Function_Exercises_Solutions.js	/^function luckySum(a, b, c){$/;"	f
+luckySum	exercises/js2/Part2_Function_Exercises.js	/^function luckySum(a, b, c){$/;"	f
+make	Javascript_Level_Two/Part5_Objects.js	/^var carInfo = { make: "Toyota", year: 1990 , model: "Camry" };$/;"	p	class:carInfo
+make	Javascript_Level_Two/Part5_Objects.js	/^var carInfo = {$/;"	p	class:carInfo
+make	Javascript_Level_Two/Part5_Objects.js	/^var carInfo = {$/;"	p	class:carInfo.carAlert
+makeBricks	Javascript_Level_Two/Part2_Function_Exercises.js	/^function makeBricks(small, big, goal){$/;"	f
+makeBricks	exercises/js2/Part2_Function_Exercises.js	/^function makeBricks(small, big, goal){$/;"	f
+match	Python_Level_One/p10game.py	/^def match():$/;"	f
+match	Python_Level_Two/Part8_Regular_Expressions.py	/^match = re.search(pattern,  text)$/;"	v
+match	exercises/python1/p10game.py	/^def match():$/;"	f
+matrix	Python_Level_One/Part3_Lists.py	/^matrix = [lst_1,lst_2,lst_3]$/;"	v
+model	Django_Level_Five/learning_users/basic_app/forms.py	/^        model = User$/;"	v	class:UserForm.Meta
+model	Django_Level_Five/learning_users/basic_app/forms.py	/^        model = UserProfileInfo$/;"	v	class:UserProfileInfoForm.Meta
+model	Django_Level_Three/ProTwo/appTwo/forms.py	/^        model = User$/;"	v	class:NewUserForm.Meta
+model	Javascript_Level_Two/Part5_Objects.js	/^  year: 1990 ,$/;"	p	class:carInfo
+model	Javascript_Level_Two/Part5_Objects.js	/^  year: 1990 ,$/;"	p	class:carInfo.carAlert
+model	Javascript_Level_Two/Part5_Objects.js	/^var carInfo = { make: "Toyota", year: 1990 , model: "Camry" };$/;"	p	class:carInfo
+model	exercises/django/ProTwo/AppTwo/forms.py	/^        model = User$/;"	v	class:NewUserForm.Meta
+model	exercises/django/learning_users/basic_app/forms.py	/^        model = User$/;"	v	class:UserForm.Meta
+model	exercises/django/learning_users/basic_app/forms.py	/^        model = UserProfileInfo$/;"	v	class:UserProfileInfoForm.Meta
+model_name	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^            model_name='userprofileinfo',$/;"	v	class:Migration
+model_name	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^            model_name='userprofileinfo',$/;"	v	class:Migration
+model_name	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^            model_name='userprofileinfo',$/;"	v	class:Migration
+model_name	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^            model_name='userprofileinfo',$/;"	v	class:Migration
+model_name	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            model_name='accessrecords',$/;"	v	class:Migration
+model_name	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^            model_name='accessrecord',$/;"	v	class:Migration
+model_name	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            model_name='accessrecord',$/;"	v	class:Migration
+model_name	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^            model_name='webpage',$/;"	v	class:Migration
+model_name	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^            model_name='user',$/;"	v	class:Migration
+monkeyTrouble	Javascript_Level_Two/Part2_Function_Exercises_Solutions.js	/^function monkeyTrouble(aSmile, bSmile) {$/;"	f
+multi_re_find	Python_Level_Two/Part8_Regular_Expressions.py	/^def multi_re_find(patterns,phrase):$/;"	f
+myString	Javascript_Level_Two/Part3_Arrays.js	/^var myString = "ABCDEFG";$/;"	v
+my_dict	Python_Level_One/Part4_Dictionaries.py	/^my_dict = {'key1':'value1','key2':'value2'}$/;"	v
+my_dict	Python_Level_One/Part4_Dictionaries.py	/^my_dict = {'key1':123,'key2':[12,23,33],'key3':['item0','item1','item2']}$/;"	v
+my_func	Python_Level_One/Part8_Functions.py	/^def my_func(param1='default'):$/;"	f
+my_income	Python_Level_One/Part1_Numbers.py	/^my_income = 100$/;"	v
+my_list	Python_Level_One/Part3_Lists.py	/^my_list = ['A string',23,100.232,'o']$/;"	v
+my_list	Python_Level_One/Part3_Lists.py	/^my_list = ['one','two','three',4,5]$/;"	v
+my_list	Python_Level_One/Part3_Lists.py	/^my_list = [1,2,3]$/;"	v
+my_list	Python_Level_One/Part3_Lists.py	/^my_list = my_list + ['add new item permanently']$/;"	v
+my_list	Python_Level_One/Part8_Functions.py	/^my_list = [1,2,3,4,5,6,7,8,9,10]$/;"	v
+my_taxes	Python_Level_One/Part1_Numbers.py	/^my_taxes = my_income*tax_rate$/;"	v
+mylist	Python_Level_One/Part6_Exercise_Review.py	/^mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]$/;"	v
+mylist	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]$/;"	v
+mypairs	Python_Level_One/Part7_Control_Flow_Lecture.py	/^mypairs = [(1,10),(3,30),(5,50)]$/;"	v
+name	Django_Level_Five/learning_users/basic_app/apps.py	/^    name = 'basic_app'$/;"	v	class:BasicAppConfig
+name	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^            name='UserProfileInfo',$/;"	v	class:Migration
+name	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^            name='picture',$/;"	v	class:Migration
+name	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^            name='profile_pic',$/;"	v	class:Migration
+name	Django_Level_Four/learning_templates/basic_app/apps.py	/^    name = 'basic_app'$/;"	v	class:BasicAppConfig
+name	Django_Level_One/ProTwo/appTwo/apps.py	/^    name = 'appTwo'$/;"	v	class:ApptwoConfig
+name	Django_Level_One/first_project/first_app/apps.py	/^    name = 'first_app'$/;"	v	class:FirstAppConfig
+name	Django_Level_Three/ProTwo/appTwo/apps.py	/^    name = 'appTwo'$/;"	v	class:ApptwoConfig
+name	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^            name='User',$/;"	v	class:Migration
+name	Django_Level_Three/basicforms/basicapp/apps.py	/^    name = 'basicapp'$/;"	v	class:BasicappConfig
+name	Django_Level_Three/basicforms/basicapp/forms.py	/^    name = forms.CharField()$/;"	v	class:FormName
+name	Django_Level_Two/ProTwo/appTwo/apps.py	/^    name = 'appTwo'$/;"	v	class:ApptwoConfig
+name	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^            name='User',$/;"	v	class:Migration
+name	Django_Level_Two/first_project/first_app/apps.py	/^    name = 'first_app'$/;"	v	class:FirstAppConfig
+name	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            name='AccessRecords',$/;"	v	class:Migration
+name	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            name='Topic',$/;"	v	class:Migration
+name	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            name='Webpage',$/;"	v	class:Migration
+name	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^            name='url',$/;"	v	class:Migration
+name	Django_Level_Two/first_project/first_app/models.py	/^    name = models.CharField(max_length=264,unique=True)$/;"	v	class:Webpage
+name	Django_Level_Two/first_project/first_app/models.py	/^    name = models.ForeignKey(Webpage)$/;"	v	class:AccessRecord
+name	JavaScript_Level_One/Part1_Javascript_Basics.js	/^var name = "Jose";$/;"	v
+name	Javascript_Level_Two/Part1_Functions.js	/^function name(parameter1, parameter2, parameter3) {$/;"	f
+name	Javascript_Level_Two/Part6_Objects_Exercise.js	/^var employee = {$/;"	p	class:employee
+name	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^var employee = {$/;"	p	class:employee
+name	Python_Level_One/Part6_Exercise_Review.py	/^name = "Sammy"$/;"	v
+name	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^name = "Sammy"$/;"	v
+name	Python_Level_Two/Part1_Scope.py	/^name = 'This is a global name'$/;"	v
+name	Python_Level_Two/Part3_OOP_Project.py	/^name = input("What is your name player? ")$/;"	v
+name	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^name = input("What is your name player? ")$/;"	v
+name	exercises/django/FirstProject/first_app/apps.py	/^    name = 'first_app'$/;"	v	class:FirstAppConfig
+name	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            name='AccessRecord',$/;"	v	class:Migration
+name	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            name='Topic',$/;"	v	class:Migration
+name	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            name='Webpage',$/;"	v	class:Migration
+name	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^            name='name',$/;"	v	class:Migration
+name	exercises/django/FirstProject/first_app/models.py	/^    name = models.CharField(max_length=264, unique=True)$/;"	v	class:Webpage
+name	exercises/django/FirstProject/first_app/models.py	/^    name = models.ForeignKey(Webpage)$/;"	v	class:AccessRecord
+name	exercises/django/ProTwo/AppTwo/apps.py	/^    name = 'AppTwo'$/;"	v	class:ApptwoConfig
+name	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^            name='User',$/;"	v	class:Migration
+name	exercises/django/basicforms/basicapp/apps.py	/^    name = 'basicapp'$/;"	v	class:BasicappConfig
+name	exercises/django/basicforms/basicapp/forms.py	/^    name = forms.CharField(validators=[check_for_z])$/;"	v	class:FormName
+name	exercises/django/learning_templates/basic_app/apps.py	/^    name = 'basic_app'$/;"	v	class:BasicAppConfig
+name	exercises/django/learning_users/basic_app/apps.py	/^    name = 'basic_app'$/;"	v	class:BasicAppConfig
+name	exercises/js2/Part6_Objects_Exercise.js	/^var employee = {$/;"	p	class:employee
+nameLength	Javascript_Level_Two/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+nameLength	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^  age: 31,$/;"	m	class:employee
+nameLength	exercises/js2/Part6_Objects_Exercise.js	/^  age: 31,$/;"	m	class:employee
+new_decorator	Python_Level_Two/Part5_Decorators.py	/^def new_decorator(func):$/;"	f
+new_list	Python_Level_One/Part3_Lists.py	/^new_list = ['a','e','x','b','c']$/;"	v
+new_name	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^            new_name='portfolio_site',$/;"	v	class:Migration
+new_name	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^            new_name='profile_pic',$/;"	v	class:Migration
+new_name	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^            new_name='profile_pic',$/;"	v	class:Migration
+new_name	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^            new_name='AccessRecord',$/;"	v	class:Migration
+new_name	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^            new_name='name',$/;"	v	class:Migration
+new_name	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^            new_name='url',$/;"	v	class:Migration
+new_name	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^            new_name='first_name',$/;"	v	class:Migration
+no_teen_sum	Python_Level_One/Part9_Functions_Exercises.py	/^def no_teen_sum(a, b, c):$/;"	f
+no_teen_sum	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def no_teen_sum(a, b, c):$/;"	f
+no_teen_sum	Python_Level_One/p9e5.py	/^def no_teen_sum(a, b, c):$/;"	f
+no_teen_sum	exercises/python1/p9e5.py	/^def no_teen_sum(a, b, c):$/;"	f
+nums	Python_Level_One/p10game.py	/^nums = [str(i) for i in str(digits[:3]) if i.isdigit()]$/;"	v
+nums	exercises/python1/p10game.py	/^nums = [str(i) for i in str(digits[:3]) if i.isdigit()]$/;"	v
+old_name	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^            old_name='portfolio',$/;"	v	class:Migration
+old_name	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^            old_name='picture',$/;"	v	class:Migration
+old_name	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^            old_name='picture',$/;"	v	class:Migration
+old_name	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^            old_name='AccessRecords',$/;"	v	class:Migration
+old_name	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^            old_name='url',$/;"	v	class:Migration
+old_name	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^            old_name='ulr',$/;"	v	class:Migration
+old_name	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^            old_name='firs_name',$/;"	v	class:Migration
+operations	Django_Level_Five/learning_users/basic_app/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Five/learning_users/basic_app/migrations/0002_auto_20170307_0415.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Five/learning_users/basic_app/migrations/0003_auto_20170307_0633.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Five/learning_users/basic_app/migrations/0004_auto_20170307_0647.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Five/learning_users/basic_app/migrations/0005_auto_20170307_0657.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Three/ProTwo/appTwo/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Two/ProTwo/appTwo/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Two/first_project/first_app/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	Django_Level_Two/first_project/first_app/migrations/0002_auto_20170204_0823.py	/^    operations = [$/;"	v	class:Migration
+operations	exercises/django/FirstProject/first_app/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	exercises/django/FirstProject/first_app/migrations/0002_auto_20171031_1434.py	/^    operations = [$/;"	v	class:Migration
+operations	exercises/django/ProTwo/AppTwo/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	exercises/django/ProTwo/AppTwo/migrations/0002_auto_20171109_1032.py	/^    operations = [$/;"	v	class:Migration
+other	Django_Level_Four/learning_templates/basic_app/views.py	/^def other(request):$/;"	f
+other	Python_Level_Two/Part5_Decorators.py	/^def other(func):$/;"	f
+other	exercises/django/learning_templates/basic_app/views.py	/^def other(request):$/;"	f
+ott	Python_Level_One/p9e4.py	/^    ott = (1,2,3)$/;"	v
+ott	exercises/python1/p9e4.py	/^    ott = (1,2,3)$/;"	v
+out	Python_Level_One/Part7_Control_Flow_Lecture.py	/^out = []$/;"	v
+p_card	Python_Level_Two/Part3_OOP_Project.py	/^    p_card = user.play_card()$/;"	v
+p_card	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    p_card = user.play_card()$/;"	v
+password	Django_Level_Five/learning_users/basic_app/forms.py	/^    password = forms.CharField(widget=forms.PasswordInput())$/;"	v	class:UserForm
+password	exercises/django/learning_users/basic_app/forms.py	/^    password = forms.Charfield(widget=forms.PasswordInput())$/;"	v	class:UserForm
+pattern	Python_Level_Two/Part8_Regular_Expressions.py	/^pattern = 'term1'$/;"	v
+patterns	Python_Level_Two/Part8_Regular_Expressions.py	/^patterns = [ 'term1', 'term2' ]$/;"	v
+pet	JavaScript_Level_One/MyPart9.js	/^var pet = prompt("What's the name of your pet?");$/;"	v
+pet	exercises/js1/MyPart9.js	/^var pet = prompt("What's the name of your pet?");$/;"	v
+petName	JavaScript_Level_One/Part9.js	/^var petName = prompt("What is the name of your pet?");$/;"	v
+phrase	Python_Level_Two/Part8_Regular_Expressions.py	/^phrase = 'What is the domain name of someone with the email: hello@gmail.com'$/;"	v
+pi	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    pi = 3.14$/;"	v	class:Circle
+play_card	Python_Level_Two/Part3_OOP_Project.py	/^    def play_card(self):$/;"	m	class:Player
+play_card	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def play_card(self):$/;"	m	class:Player
+player1	jQuery/Part3_FrontEndProject.js	/^var player1 = prompt("Player One: Enter Your Name , you will be Blue");$/;"	v
+player1Color	jQuery/Part3_FrontEndProject.js	/^var player1Color = 'rgb(86, 151, 255)';$/;"	v
+player2	jQuery/Part3_FrontEndProject.js	/^var player2 = prompt("Player Two: Enter Your Name, you will be Red");$/;"	v
+player2Color	jQuery/Part3_FrontEndProject.js	/^var player2Color = 'rgb(237, 45, 73)';$/;"	v
+popped_item	Python_Level_One/Part3_Lists.py	/^popped_item = l.pop()$/;"	v
+populate	Django_Level_Three/ProTwo/populate_users.py	/^def populate(N=5):$/;"	f
+populate	Django_Level_Two/ProTwo/populate_users.py	/^def populate(N=5):$/;"	f
+populate	Django_Level_Two/first_project/populate_first_app.py	/^def populate(N=5):$/;"	f
+populate	exercises/django/FirstProject/populate_first_app.py	/^def populate(N=5):$/;"	f
+populate	exercises/django/ProTwo/populate_apptwo.py	/^def populate(N=5):$/;"	f
+portfolio_site	Django_Level_Five/learning_users/basic_app/models.py	/^    portfolio_site = models.URLField(blank=True)$/;"	v	class:UserProfileInfo
+portfolio_site	exercises/django/learning_users/basic_app/models.py	/^    portfolio_site = models.URLField(blank=True)$/;"	v	class:UserProfileInfo
+pounds	JavaScript_Level_One/MyPart3.js	/^var pounds = prompt("Pounds?");$/;"	v
+pounds	JavaScript_Level_One/ramonpart3.js	/^var pounds = prompt("How many pounds?");$/;"	v
+pounds	exercises/js1/MyPart3.js	/^var pounds = prompt("Pounds?");$/;"	v
+pounds	exercises/js1/ramonpart3.js	/^var pounds = prompt("How many pounds?");$/;"	v
+printer	Python_Level_Two/Part1_Scope.py	/^def printer():$/;"	f
+profile_pic	Django_Level_Five/learning_users/basic_app/models.py	/^    profile_pic = models.ImageField(upload_to='profile_pics',blank=True)$/;"	v	class:UserProfileInfo
+profile_pic	exercises/django/learning_users/basic_app/models.py	/^    profile_pic = models.ImageField(upload_to='profile_pics', blank=True)$/;"	v	class:UserProfileInfo
+question	Python_Level_One/p10game.py	/^def question():$/;"	f
+question	exercises/python1/p10game.py	/^def question():$/;"	f
+register	Django_Level_Five/learning_users/basic_app/views.py	/^def register(request):$/;"	f
+register	exercises/django/learning_templates/basic_app/templatetags/my_extras.py	/^register = template.Library()$/;"	v
+register	exercises/django/learning_users/basic_app/views.py	/^def register(request):$/;"	f
+relative	Django_Level_Four/learning_templates/basic_app/views.py	/^def relative(request):$/;"	f
+relative	exercises/django/learning_templates/basic_app/views.py	/^def relative(request):$/;"	f
+remove	Javascript_Level_Two/Part4_Array_Exercise_Ramon.js	/^function remove(){$/;"	f
+remove	Javascript_Level_Two/Part4_Array_Exercise_SOLUTION.js	/^function remove(){$/;"	f
+remove	exercises/js2/Part4_Array_Exercise_Ramon.js	/^function remove(){$/;"	f
+remove_card	Python_Level_Two/Part3_OOP_Project.py	/^    def remove_card(self):$/;"	m	class:Hand
+remove_card	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def remove_card(self):$/;"	m	class:Hand
+remove_war_cards	Python_Level_Two/Part3_OOP_Project.py	/^    def remove_war_cards(self):$/;"	m	class:Player
+remove_war_cards	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def remove_war_cards(self):$/;"	m	class:Player
+report	Javascript_Level_Two/Part6_Objects_Exercise_SOLUTIONS.js	/^  age: 31,$/;"	m	class:employee
+reportWin	jQuery/Part3_FrontEndProject.js	/^function reportWin(rowNum,colNum) {$/;"	f
+request	Javascript_Level_Two/Part4_Array_Exercise_SOLUTION.js	/^var request = "empty";$/;"	v
+restart	Document_Object_Model/Part4_Game.js	/^var restart = document.querySelector('#b');$/;"	v
+result	Python_Level_One/Part8_Functions.py	/^result = giveMeHello()$/;"	v
+result	Python_Level_One/Part8_Functions.py	/^result = helloYou()$/;"	v
+returnColor	jQuery/Part3_FrontEndProject.js	/^function returnColor(rowIndex,colIndex) {$/;"	f
+s	Python_Level_One/Part2_Strings.py	/^s = 'Hello World'$/;"	v
+s	Python_Level_One/Part2_Strings.py	/^s = s + ' concatenate me!'$/;"	v
+s	Python_Level_One/Part6_Exercise_Review.py	/^s = 'django'$/;"	v
+s	Python_Level_One/Part6_Exercise_Review_SOLUTIONS.py	/^s = 'django'$/;"	v
+s	Python_Level_Two/Part5_Decorators.py	/^s = 'Global Variable'$/;"	v
+sam	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^sam = Dog('Lab','Sam')$/;"	v
+sam	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^sam = Dog(breed='Lab')$/;"	v
+secretCode	Python_Level_One/Part10_Simple_Game_SOLUTIONS.py	/^secretCode = generate_code()$/;"	v
+seq	Python_Level_One/Part7_Control_Flow_Lecture.py	/^seq = [1,2,3,4,5]$/;"	v
+setRadius	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def setRadius(self, radius):$/;"	m	class:Circle
+shuffle	Python_Level_Two/Part3_OOP_Project.py	/^    def shuffle(self):$/;"	m	class:Deck
+shuffle	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def shuffle(self):$/;"	m	class:Deck
+sleepIn	Javascript_Level_Two/Part2_Function_Exercises.js	/^function sleepIn(weekday,vacation) {$/;"	f
+sleepIn	Javascript_Level_Two/Part2_Function_Exercises_Solutions.js	/^function sleepIn(weekday, vacation) {$/;"	f
+sleepIn	exercises/js2/Part2_Function_Exercises.js	/^function sleepIn(weekday,vacation) {$/;"	f
+special	Django_Level_Five/learning_users/basic_app/views.py	/^def special(request):$/;"	f
+species	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    species = 'mammal'$/;"	v	class:Dog
+split_in_half	Python_Level_Two/Part3_OOP_Project.py	/^    def split_in_half(self):$/;"	m	class:Deck
+split_in_half	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def split_in_half(self):$/;"	m	class:Deck
+split_term	Python_Level_Two/Part8_Regular_Expressions.py	/^split_term = '@'$/;"	v
+squares	Document_Object_Model/Part4_Game.js	/^var squares = document.querySelectorAll("td");$/;"	v
+st	Python_Level_One/Part8_Functions.py	/^st = 'hello my name is Sam'$/;"	v
+start	Javascript_Level_Two/Part4_Array_Exercise_SOLUTION.js	/^var start = prompt("Would you like to start the roster web app? y\/n");$/;"	v
+still_has_cards	Python_Level_Two/Part3_OOP_Project.py	/^    def still_has_cards(self):$/;"	m	class:Player
+still_has_cards	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    def still_has_cards(self):$/;"	m	class:Player
+stringBits	Python_Level_One/Part9_Functions_Exercises.py	/^def stringBits(str):$/;"	f
+stringBits	Python_Level_One/Part9_Functions_Exercises_SOLUTIONS.py	/^def stringBits(str):$/;"	f
+stringBits	Python_Level_One/p9e2.py	/^def stringBits(str):$/;"	f
+stringBits	exercises/python1/p9e2.py	/^def stringBits(str):$/;"	f
+stringTimes	Javascript_Level_Two/Part2_Function_Exercises.js	/^function stringTimes(str,n) {$/;"	f
+stringTimes	Javascript_Level_Two/Part2_Function_Exercises_Solutions.js	/^function stringTimes(str, n) {$/;"	f
+stringTimes	exercises/js2/Part2_Function_Exercises.js	/^function stringTimes(str,n) {$/;"	f
+t	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^t = ('one',2)$/;"	v
+t	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^t = (1,2,3)$/;"	v
+table	jQuery/Part3_FrontEndProject.js	/^var table = $('table tr');$/;"	v
+table_cards	Python_Level_Two/Part3_OOP_Project.py	/^    table_cards = []$/;"	v
+table_cards	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^    table_cards = []$/;"	v
+target	Python_Level_One/p10game.py	/^target = []$/;"	v
+target	exercises/python1/p10game.py	/^target = []$/;"	v
+tax_rate	Python_Level_One/Part1_Numbers.py	/^tax_rate = 0.1$/;"	v
+test_patterns	Python_Level_Two/Part8_Regular_Expressions.py	/^test_patterns = [ '[sd]',    # either s or d$/;"	v
+test_patterns	Python_Level_Two/Part8_Regular_Expressions.py	/^test_patterns = [ 'sd*',     # s followed by zero or more d's$/;"	v
+test_patterns	Python_Level_Two/Part8_Regular_Expressions.py	/^test_patterns=[ '[a-z]+',      # sequences of lower case letters$/;"	v
+test_patterns	Python_Level_Two/Part8_Regular_Expressions.py	/^test_patterns=[ r'\\d+', # sequence of digits$/;"	v
+test_phrase	Python_Level_Two/Part8_Regular_Expressions.py	/^test_phrase = 'This is a string with some numbers 1233 and a symbol #hashtag'$/;"	v
+test_phrase	Python_Level_Two/Part8_Regular_Expressions.py	/^test_phrase = 'This is a string! But it has punctuation. How can we remove it?'$/;"	v
+test_phrase	Python_Level_Two/Part8_Regular_Expressions.py	/^test_phrase = 'This is an example sentence. Lets see if we can find some letters.'$/;"	v
+test_phrase	Python_Level_Two/Part8_Regular_Expressions.py	/^test_phrase = 'sdsd..sssddd...sdddsddd...dsds...dsssss...sdddd'$/;"	v
+text	Django_Level_Three/basicforms/basicapp/forms.py	/^    text = forms.CharField(widget=forms.Textarea)$/;"	v	class:FormName
+text	Python_Level_Two/Part8_Regular_Expressions.py	/^text = 'This is a string with term1, but it does not have the other term.'$/;"	v
+text	exercises/django/basicforms/basicapp/forms.py	/^    text = forms.CharField(widget=forms.Textarea)$/;"	v	class:FormName
+timesTwo	Python_Level_One/Part8_Functions.py	/^def timesTwo(num):$/;"	f
+top_name	Django_Level_Two/first_project/first_app/models.py	/^    top_name = models.CharField(max_length=264,unique=True)$/;"	v	class:Topic
+top_name	exercises/django/FirstProject/first_app/models.py	/^    top_name = models.CharField(max_length=264,unique=True)$/;"	v	class:Topic
+topic	Django_Level_Two/first_project/first_app/models.py	/^    topic = models.ForeignKey(Topic)$/;"	v	class:Webpage
+topic	exercises/django/FirstProject/first_app/models.py	/^    topic = models.ForeignKey(Topic)$/;"	v	class:Webpage
+topics	Django_Level_Two/first_project/populate_first_app.py	/^topics = ['Search','Social','Marketplace','News','Games']$/;"	v
+topics	Javascript_Level_Two/Part3_Arrays.js	/^var topics = ["python",'djang','science']$/;"	v
+topics	exercises/django/FirstProject/populate_first_app.py	/^topics = ['Search','Social','Marketplace','News','Games']$/;"	v
+total	JavaScript_Level_One/Part1_Javascript_Basics.js	/^var total = account + deposit;$/;"	v
+total_rounds	Python_Level_Two/Part3_OOP_Project.py	/^total_rounds = 0$/;"	v
+total_rounds	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^total_rounds = 0$/;"	v
+tweet	Python_Level_One/Part8_Functions.py	/^tweet = 'Go Sports! #Sports'$/;"	v
+url	Django_Level_Two/first_project/first_app/models.py	/^    url = models.URLField(unique=True)$/;"	v	class:Webpage
+url	exercises/django/FirstProject/first_app/models.py	/^    url = models.URLField(unique=True)$/;"	v	class:Webpage
+urlpatterns	Django_Level_Five/learning_users/basic_app/urls.py	/^urlpatterns=[$/;"	v
+urlpatterns	Django_Level_Five/learning_users/learning_users/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Four/learning_templates/basic_app/urls.py	/^urlpatterns=[$/;"	v
+urlpatterns	Django_Level_Four/learning_templates/learning_templates/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_One/ProTwo/ProTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_One/ProTwo/appTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_One/first_project/first_app/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_One/first_project/first_project/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Three/ProTwo/ProTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Three/ProTwo/appTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Three/basicforms/basicforms/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Two/ProTwo/ProTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Two/ProTwo/appTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Two/first_project/first_app/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	Django_Level_Two/first_project/first_project/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/FirstProject/first_project/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/ProTwo/ProTwo/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/basicforms/basicforms/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/learning_templates/basic_app/urls.py	/^urlpatterns= [$/;"	v
+urlpatterns	exercises/django/learning_templates/learning_templates/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/learning_users/basic_app/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	exercises/django/learning_users/learning_users/urls.py	/^urlpatterns = [$/;"	v
+user	Django_Level_Five/learning_users/basic_app/models.py	/^    user = models.OneToOneField(User)$/;"	v	class:UserProfileInfo
+user	Python_Level_Two/Part3_OOP_Project.py	/^user = Player(name,Hand(half2))$/;"	v
+user	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^user = Player(name,Hand(half2))$/;"	v
+user	exercises/django/ProTwo/AppTwo/views.py	/^def user(request):$/;"	f
+user	exercises/django/learning_users/basic_app/models.py	/^    user = models.OneToOneFiled(User)$/;"	v	class:UserProfileInfo
+user_login	Django_Level_Five/learning_users/basic_app/views.py	/^def user_login(request):$/;"	f
+user_logout	Django_Level_Five/learning_users/basic_app/views.py	/^def user_logout(request):$/;"	f
+users	Django_Level_Three/ProTwo/appTwo/views.py	/^def users(request):$/;"	f
+users	Django_Level_Two/ProTwo/appTwo/views.py	/^def users(request):$/;"	f
+users	exercises/django/ProTwo/AppTwo/views.py	/^def users(request):$/;"	f
+validators	exercises/django/basicforms/basicapp/forms.py	/^                                 validators=[validators.MaxLengthValidator(0)])$/;"	v	class:FormName
+verticalWinCheck	jQuery/Part3_FrontEndProject.js	/^function verticalWinCheck() {$/;"	f
+w	Python_Level_One/Part6_Exercise_Review.py	/^w = s[::-1]$/;"	v
+war_count	Python_Level_Two/Part3_OOP_Project.py	/^war_count = 0$/;"	v
+war_count	Python_Level_Two/Part3_OOP_Project_SOLUTIONS.py	/^war_count = 0$/;"	v
+welcome	Python_Level_Two/Part5_Decorators.py	/^    def welcome():$/;"	f	function:hello
+whoAmI	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def whoAmI(self):$/;"	m	class:Animal
+whoAmI	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^    def whoAmI(self):$/;"	m	class:Dog
+widget	exercises/django/basicforms/basicapp/forms.py	/^                                 widget=forms.HiddenInput,$/;"	v	class:FormName
+wrap_func	Python_Level_Two/Part5_Decorators.py	/^    def wrap_func():$/;"	f	function:new_decorator
+x	JavaScript_Level_One/Part4_Operators.js	/^var x = 1$/;"	v
+x	Python_Level_One/Part5_Tuples_Sets_Booleans.py	/^x = set()$/;"	v
+x	Python_Level_One/Part7_Control_Flow_Lecture.py	/^x = [1,2,3,4]$/;"	v
+x	Python_Level_One/Part8_Functions.py	/^x = addEvenOnly(1,2)$/;"	v
+x	Python_Level_One/Part8_Functions.py	/^x = lst.pop()$/;"	v
+x	Python_Level_Two/Part1_Scope.py	/^x = 25$/;"	v
+x	Python_Level_Two/Part1_Scope.py	/^x = 50$/;"	v
+x	Python_Level_Two/Part2_Object_Oriented_Programming.py	/^x = Sample()$/;"	v
+x	Python_Level_Two/Part5_Decorators.py	/^x = hello()$/;"	v
+x	jQuery/Part1_Basic_jQuery.js	/^var x = $('h1');$/;"	v
+y	Python_Level_One/Part8_Functions.py	/^y = addEvenOnly(2,2)$/;"	v
+year	Javascript_Level_Two/Part5_Objects.js	/^  make: "Toyota",$/;"	p	class:carInfo
+year	Javascript_Level_Two/Part5_Objects.js	/^  make: "Toyota",$/;"	p	class:carInfo.carAlert
+year	Javascript_Level_Two/Part5_Objects.js	/^var carInfo = { make: "Toyota", year: 1990 , model: "Camry" };$/;"	p	class:carInfo
+z	Python_Level_One/Part6_Exercise_Review.py	/^z = s[5]+s[4]+s[3]+s[2]+s[1]+s[0]$/;"	v
