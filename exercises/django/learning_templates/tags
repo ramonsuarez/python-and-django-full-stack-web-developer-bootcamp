@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	learning_templates/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	learning_templates/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	learning_templates/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BasicAppConfig	basic_app/apps.py	/^class BasicAppConfig(AppConfig):$/;"	c
+DATABASES	learning_templates/settings.py	/^DATABASES = {$/;"	v
+DEBUG	learning_templates/settings.py	/^DEBUG = True$/;"	v
+INSTALLED_APPS	learning_templates/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	learning_templates/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	learning_templates/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	basic_app/forms.py	/^class Meta():$/;"	c
+ROOT_URLCONF	learning_templates/settings.py	/^ROOT_URLCONF = 'learning_templates.urls'$/;"	v
+SECRET_KEY	learning_templates/settings.py	/^SECRET_KEY = 'cxr$6v6qm4+_#mxj!f59a9!+_(1himu^4)q8z-m9q7)flhlp%c'$/;"	v
+STATIC_URL	learning_templates/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	learning_templates/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATE_DIR	learning_templates/settings.py	/^TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')$/;"	v
+TIME_ZONE	learning_templates/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	learning_templates/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	learning_templates/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	learning_templates/settings.py	/^USE_TZ = True$/;"	v
+UserForm	basic_app/forms.py	/^class UserForm(forms.ModelForm):$/;"	c
+WSGI_APPLICATION	learning_templates/settings.py	/^WSGI_APPLICATION = 'learning_templates.wsgi.application'$/;"	v
+app_name	basic_app/urls.py	/^app_name = 'basic_app'$/;"	v
+application	learning_templates/wsgi.py	/^application = get_wsgi_application()$/;"	v
+cut	basic_app/templatetags/my_extras.py	/^def cut(value, arg):$/;"	f
+fields	basic_app/forms.py	/^    fields = ('portfolio_site', 'profile_pic')$/;"	v	class:Meta
+index	basic_app/views.py	/^def index(request):$/;"	f
+model	basic_app/forms.py	/^    model = UserProfileInfoForm$/;"	v	class:Meta
+name	basic_app/apps.py	/^    name = 'basic_app'$/;"	v	class:BasicAppConfig
+other	basic_app/views.py	/^def other(request):$/;"	f
+password	basic_app/forms.py	/^    password = forms.CharField(widget=forms.PasswordInput())$/;"	v	class:UserForm
+register	basic_app/templatetags/my_extras.py	/^register = template.Library()$/;"	v
+register	basic_app/views.py	/^def register(request):$/;"	f
+urlpatterns	basic_app/urls.py	/^urlpatterns= [$/;"	v
+urlpatterns	learning_templates/urls.py	/^urlpatterns = [$/;"	v
