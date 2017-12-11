@@ -1,0 +1,17 @@
+{% extends 'basic_app/base.html' %}
+{% load staticfiles %}
+
+{% block bodyblock %}
+
+<div class="jumbotron">
+  {% if registered %}
+    <h1>Thank you for registering</h1>
+  {% else %}
+    <h1>Register here</h1>
+    <h3>Fill out this form:</h3>
+
+    <form method="post" enctype="multipart/form-data"></form>
+    
+</div>
+
+{% endblock %}
