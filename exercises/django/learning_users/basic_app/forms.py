@@ -4,7 +4,7 @@ from basic_app.models import UserProfileInfo
 
 
 class UserForm(forms.Form):
-    password = forms.Charfield(widget=forms.PasswordInput())
+    password = forms.CharField(widget=forms.PasswordInput())
 
     class Meta():
         model = User
