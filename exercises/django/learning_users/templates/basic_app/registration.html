@@ -9,11 +9,11 @@
     {% else %}
         <h1>Regiter here</h1>    
         <h2>Enter your details:</h2>
-        <form method="post" enctype="multipart/form-data"></form>
+        <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ user_form.as_p }}
             {{ profile_form.as_p }}
-            <input type="sumbit" name="" value="Register">
+            <input type="submit" name="" value="Register">
         </form>
     {% endif %}
 </div>
