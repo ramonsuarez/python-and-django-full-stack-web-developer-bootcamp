@@ -18,4 +18,5 @@ from django.conf.urls import url
 from basic_app import views
 urlpatterns = [
     url(r'^$', views.IndexView.as_view()),
+    url(r'^admin/', admin.site.urls),
 ]
