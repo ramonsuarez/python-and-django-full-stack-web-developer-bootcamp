@@ -1,4 +1,5 @@
-# from django.shortcuts import render
+from django.shortcuts import render
+from django.core.urlresolvers import reverse_lazy
 from django.views.generic import (View, 
                                   TemplateView, 
                                   ListView, 
@@ -33,3 +34,13 @@ class SchoolDetailView(DetailView):
 class SchoolCreateView(CreateView):
     fields = ('name', 'principal', 'location')
     model = models.School
+
+
+class SchoolUpdateView(UpdateView):
+    fields = ('name', 'principal')
+    model = models.School
+
+
+class SchoolDeleteView(DeleteView):
+    model = models.School
+    success_url = reverse_lazy("basic_app:list")
