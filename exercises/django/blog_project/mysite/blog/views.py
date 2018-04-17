@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
+from django.utils import timezone
 from blog.models import Post, Comment
 from django.contrib.auth.mixins import LoginRequiredMixin
 from blog.forms import PostForm, CommentForm
@@ -21,7 +22,7 @@ class PostListView(ListView):
     model = Post
 
     def get_queryset(self):
-        return Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
+        return Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date'))
 
 
 class PostDetailsView(DetailView):
@@ -54,3 +55,20 @@ class DraftListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         return Post.objects.filter(published_date__isnull=True).order_by('created_date')
+
+
+##### Comments #####
+
+@login_required
+def add_comment_to_post(request,pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = CommentForm()
+    return render(request, 'blog/comment_form.html',{'form':form})
