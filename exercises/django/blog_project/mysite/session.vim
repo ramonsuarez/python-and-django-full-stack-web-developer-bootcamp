@@ -98,6 +98,7 @@ let &cpo=s:cpo_save
 unlet s:cpo_save
 set background=dark
 set backspace=indent,eol,start
+set balloonexpr=SyntasticBalloonsExprNotifier()
 set expandtab
 set fileencodings=ucs-bom,utf-8,default,latin1
 set guifont=DejaVu\ Sans\ Mono\ 10
@@ -133,15 +134,16 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 blog/urls.py
-badd +1 blog/views.py
+badd +15 blog/urls.py
+badd +66 blog/views.py
 badd +1 blog/templates/blog/comment_form.html
 badd +1 blog/templates/blog/post_form.html
 badd +1 blog/templates/blog/post_confirm_delete.html
 badd +1 blog/templates/blog/post_detail.html
 badd +1 blog/templates/blog/post_draft_list.html
 badd +1 blog/templates/blog/post_list.html
-badd +0 blog/templates/registration/login.html
+badd +1 blog/templates/registration/login.html
+badd +24 mysite/urls.py
 argglobal
 silent! argdel *
 argadd blog/urls.py
@@ -263,11 +265,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 21) / 43)
+let s:l = 19 - ((18 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+19
 normal! 0
 tabnext 1
 if exists('s:wipebuf')
