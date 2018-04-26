@@ -134,6 +134,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
+badd +26 blog/templates/blog/base.html
 badd +15 blog/urls.py
 badd +66 blog/views.py
 badd +1 blog/templates/blog/comment_form.html
@@ -142,12 +143,12 @@ badd +1 blog/templates/blog/post_confirm_delete.html
 badd +1 blog/templates/blog/post_detail.html
 badd +1 blog/templates/blog/post_draft_list.html
 badd +1 blog/templates/blog/post_list.html
-badd +1 blog/templates/registration/login.html
+badd +19 blog/templates/registration/login.html
 badd +24 mysite/urls.py
 argglobal
 silent! argdel *
 argadd blog/urls.py
-edit blog/templates/registration/login.html
+edit blog/templates/blog/base.html
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -187,8 +188,8 @@ setlocal nodiff
 setlocal equalprg=
 setlocal errorformat=
 setlocal expandtab
-if &filetype != 'html'
-setlocal filetype=html
+if &filetype != 'htmldjango'
+setlocal filetype=htmldjango
 endif
 setlocal fixendofline
 setlocal foldcolumn=0
@@ -227,7 +228,7 @@ setlocal nrformats=bin,octal,hex
 set number
 setlocal number
 setlocal numberwidth=4
-setlocal omnifunc=htmlcomplete#CompleteTags
+setlocal omnifunc=python3complete#Complete
 setlocal path=
 setlocal nopreserveindent
 setlocal nopreviewwindow
@@ -250,8 +251,8 @@ setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
-if &syntax != 'html'
-setlocal syntax=html
+if &syntax != 'htmldjango'
+setlocal syntax=htmldjango
 endif
 setlocal tabstop=2
 setlocal tagcase=
@@ -265,12 +266,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 19 - ((18 * winheight(0) + 26) / 53)
+let s:l = 18 - ((17 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-19
-normal! 0
+18
+normal! 05|
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf
