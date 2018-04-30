@@ -3,6 +3,16 @@
   font-size: 1.5em;
   margin-bottom: 10px;
 }
+
+.bigbrand{
+  font-size: 1.5em;
+}
+
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .loader {
   filter:hue-rotate(0deg);
   color:linear-gradient(45deg,#0f8,#08f);
