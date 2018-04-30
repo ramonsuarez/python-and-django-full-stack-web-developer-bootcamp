@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load staticfiles %}
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Medium Style Editor -->
+    <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default techfont custom-navbar">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand bigbrand" href="{% url post_list %}">Blog</a></li>
+          <li>
+            <a href="{% ulr 'about' %}">About</a>
+            <a href="https://github.com/ramonsuarez">Github</a>
+            <a href="https://www.coworkinghandbook.com">Coworking book</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-bar navbar-right">
+          {% if user.is_authenticated %}
+          <li>
+            <a href="{% url 'post_new' %}">New Post</a>
+            <a href="{% url 'post_draft_list %}">Drafts</a>
+            <a href="{% url 'logout' %}">Logout</a>
+          </li>
+          {% else %}
+          <li>
+            <a href="{% url 'login' %}"><span class="glyphicon glyphicon-user"></span></a>
+          </li>
+
+          {% endif %}
+
+        </ul>
+      </div>
+    </nav>
+    <!-- Content block -->
+<div class="content container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="blog_posts"></div>
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+</div>
+  </body>
+  <html>
