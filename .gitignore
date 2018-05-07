@@ -1,14 +1,15 @@
 # Ignore everything
-/*
-/*/
+# /*
+# /*/
+# Ignore binaries and unuseful files
 __pycache__
 *db.sqlite3
 *.py[cod]
 *.swp
 
 # ... except my files
-!.gitignore
-!README.md
-!/exercises/
-!tags
-!requirements.txt
+# !.gitignore
+# !README.md
+# !/exercises/
+# !tags
+# !requirements.txt
