@@ -24,9 +24,9 @@
     <nav class="navbar navbar-default techfont custom-navbar">
       <div class="container">
         <ul class="nav navbar-nav">
-          <li><a class="navbar-brand bigbrand" href="{% url post_list %}">Blog</a></li>
+          <li><a class="navbar-brand bigbrand" href="{% url 'post_list' %}">Blog</a></li>
           <li>
-            <a href="{% ulr 'about' %}">About</a>
+            <a href="{% url 'about' %}">About</a>
             <a href="https://github.com/ramonsuarez">Github</a>
             <a href="https://www.coworkinghandbook.com">Coworking book</a>
           </li>
@@ -35,7 +35,7 @@
           {% if user.is_authenticated %}
           <li>
             <a href="{% url 'post_new' %}">New Post</a>
-            <a href="{% url 'post_draft_list %}">Drafts</a>
+            <a href="{% url 'post_draft_list' %}">Drafts</a>
             <a href="{% url 'logout' %}">Logout</a>
           </li>
           {% else %}

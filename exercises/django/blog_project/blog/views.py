@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from blog.models import Post, Comment
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -22,10 +23,10 @@ class PostListView(ListView):
     model = Post
 
     def get_queryset(self):
-        return Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date'))
+        return Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
 
 
-class PostDetailsView(DetailView):
+class PostDetailView(DetailView):
     model = Post
 
 
@@ -85,7 +86,7 @@ def comment_approve(request,pk):
     return redirect('post_detail',pk=comment.post.pk)
 
 @login_required
-def Comment_remove(request,pk):
+def comment_remove(request,pk):
     Comment = get_object_or_404(Comment, pk=pk)
     post_pk = comment.post.pk
     Comment.delete()
