@@ -23,7 +23,7 @@
   {{comment.created_date}}
   {% if not comment.approved_comment %}
   <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
-  <a class="btn btn-primary" href="{% url 'comment-approve pk=comment.pk %}"><span class="glyphicon glyphicon-ok"</span></a>
+  <a class="btn btn-primary" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"</span></a>
   {% endif %}
   <p>{{comment.text|safe|linebreaks}}</p>
   <p>Posted by: {{comment.author}}</p>
