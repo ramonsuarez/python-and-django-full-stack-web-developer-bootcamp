@@ -1,11 +1,15 @@
 # Ignore everything
 # /*
 # /*/
+
 # Ignore binaries and unuseful files
 __pycache__
 *db.sqlite3
 *.py[cod]
 *.swp
+
+# Ignore virtualenv
+venv/
 
 # ... except my files
 # !.gitignore
