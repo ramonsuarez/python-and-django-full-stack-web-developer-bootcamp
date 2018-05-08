@@ -1,2 +1,16 @@
+certifi==2018.4.16
+chardet==3.0.4
 Django==1.11.13
+django-bootstrap3==10.0.1
+flake8==3.5.0
+idna==2.6
+mccabe==0.6.1
+pew==1.1.0
+pipenv==8.3.1
+pycodestyle==2.3.1
+pyflakes==1.6.0
 pytz==2018.4
+requests==2.18.4
+urllib3==1.22
+virtualenv==15.1.0
+virtualenv-clone==0.2.6
