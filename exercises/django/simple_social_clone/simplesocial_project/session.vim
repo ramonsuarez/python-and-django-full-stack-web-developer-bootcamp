@@ -134,24 +134,29 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +122 simplesocial/settings.py
-badd +11 simplesocial/templates/base.html
-badd +4 simplesocial/templates/index.html
-badd +22 simplesocial/urls.py
-badd +4 simplesocial/views.py
-badd +0 accounts/models.py
+badd +18 groups/views.py
+badd +8 groups/templates/groups/group_base.html
+badd +25 groups/templates/groups/group_detail.html
+badd +1 groups/templates/groups/group_form.html
+badd +33 groups/templates/groups/group_list.html
 argglobal
 silent! argdel *
-edit accounts/models.py
+$argadd groups/templates/groups/group_base.html
+$argadd groups/templates/groups/group_detail.html
+$argadd groups/templates/groups/group_form.html
+$argadd groups/templates/groups/group_list.html
+edit groups/templates/groups/group_form.html
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
 wincmd t
 set winminheight=1 winheight=1 winminwidth=1 winwidth=1
 argglobal
+4argu
+if bufexists('groups/templates/groups/group_form.html') | buffer groups/templates/groups/group_form.html | else | edit groups/templates/groups/group_form.html | endif
 setlocal keymap=
 setlocal noarabic
-setlocal autoindent
+setlocal noautoindent
 setlocal backupcopy=
 setlocal balloonexpr=
 setlocal nobinary
@@ -161,12 +166,12 @@ setlocal bufhidden=
 setlocal buflisted
 setlocal buftype=
 setlocal nocindent
-setlocal cinkeys=0{,0},0),:,!^F,o,O,e
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
 setlocal cinoptions=
 setlocal cinwords=if,else,while,do,for,switch
 setlocal colorcolumn=
-setlocal comments=b:#,fb:-
-setlocal commentstring=#\ %s
+setlocal comments=s:<!--,m:\ \ \ \ ,e:-->
+setlocal commentstring=<!--%s-->
 setlocal complete=.,w,b,u,t,i
 setlocal concealcursor=
 setlocal conceallevel=0
@@ -182,8 +187,8 @@ setlocal nodiff
 setlocal equalprg=
 setlocal errorformat=
 setlocal expandtab
-if &filetype != 'python'
-setlocal filetype=python
+if &filetype != 'html'
+setlocal filetype=html
 endif
 setlocal fixendofline
 setlocal foldcolumn=0
@@ -203,27 +208,27 @@ setlocal formatprg=
 setlocal grepprg=
 setlocal iminsert=0
 setlocal imsearch=-1
-setlocal include=^\\s*\\(from\\|import\\)
-setlocal includeexpr=substitute(v:fname,'\\.','/','g')
-setlocal indentexpr=GetPythonIndent(v:lnum)
-setlocal indentkeys=0{,0},:,!^F,o,O,e,<:>,=elif,=except
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=HtmlIndent()
+setlocal indentkeys=o,O,<Return>,<>>,{,},!^F
 setlocal noinfercase
 setlocal iskeyword=@,48-57,_,192-255
-setlocal keywordprg=pydoc
+setlocal keywordprg=
 setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
 setlocal makeencoding=
 setlocal makeprg=
-setlocal matchpairs=(:),{:},[:]
+setlocal matchpairs=(:),{:},[:],<:>
 setlocal modeline
 setlocal modifiable
 setlocal nrformats=bin,octal,hex
 set number
 setlocal number
 setlocal numberwidth=4
-setlocal omnifunc=python3complete#Complete
+setlocal omnifunc=htmlcomplete#CompleteTags
 setlocal path=
 setlocal nopreserveindent
 setlocal nopreviewwindow
@@ -233,23 +238,23 @@ setlocal norelativenumber
 setlocal norightleft
 setlocal rightleftcmd=search
 setlocal noscrollbind
-setlocal shiftwidth=4
+setlocal shiftwidth=2
 setlocal noshortname
 setlocal signcolumn=auto
 setlocal nosmartindent
-setlocal softtabstop=4
+setlocal softtabstop=0
 setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
 setlocal statusline=
-setlocal suffixesadd=.py
+setlocal suffixesadd=
 setlocal swapfile
 setlocal synmaxcol=3000
-if &syntax != 'python'
-setlocal syntax=python
+if &syntax != 'html'
+setlocal syntax=html
 endif
-setlocal tabstop=8
+setlocal tabstop=2
 setlocal tagcase=
 setlocal tags=
 setlocal termkey=
@@ -263,12 +268,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 25) / 51)
+let s:l = 11 - ((10 * winheight(0) + 21) / 42)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10
-normal! 030|
+11
+normal! 07|
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf
