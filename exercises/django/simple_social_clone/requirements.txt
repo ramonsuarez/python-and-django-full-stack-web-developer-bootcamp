@@ -3,6 +3,7 @@ cffi==1.11.5
 chardet==3.0.4
 Django==1.11.13
 django-bootstrap3==10.0.1
+django-braces==1.13.0
 flake8==3.5.0
 idna==2.6
 mccabe==0.6.1

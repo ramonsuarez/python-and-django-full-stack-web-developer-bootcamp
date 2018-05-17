@@ -130,36 +130,22 @@ set wildmenu
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/dev/djangofsu/exercises/django/simple_social_clone/simplesocial_project
+cd ~/dev/djangofsu/exercises/django/simple_social_clone
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 posts/admin.py
-badd +0 posts/apps.py
-badd +0 posts/forms.py
-badd +0 posts/models.py
-badd +0 posts/tests.py
-badd +0 posts/urls.py
-badd +67 posts/views.py
+badd +2 simplesocial_project/groups/urls.py
+badd +0 simplesocial_project/groups/admin.py
 argglobal
 silent! argdel *
-$argadd posts/admin.py
-$argadd posts/apps.py
-$argadd posts/forms.py
-$argadd posts/__init__.py
-$argadd posts/models.py
-$argadd posts/tests.py
-$argadd posts/urls.py
-$argadd posts/views.py
-edit posts/urls.py
+edit simplesocial_project/groups/admin.py
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
 wincmd t
 set winminheight=1 winheight=1 winminwidth=1 winwidth=1
 argglobal
-if bufexists('posts/urls.py') | buffer posts/urls.py | else | edit posts/urls.py | endif
 setlocal keymap=
 setlocal noarabic
 setlocal autoindent
@@ -274,12 +260,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 10 - ((9 * winheight(0) + 26) / 53)
+let s:l = 7 - ((6 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10
-normal! 089|
+7
+normal! 020|
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf
