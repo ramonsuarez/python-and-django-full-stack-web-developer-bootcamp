@@ -47,4 +47,4 @@ Unidecode==0.4.21
 urllib3==1.22
 virtualenv==15.1.0
 watchdog==0.8.3
-Werkzeug==0.12.2
+Werkzeug==0.15.3
