@@ -31,7 +31,7 @@ pelican==3.7.1
 Pillow==4.3.0
 pycosat==0.6.2
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 pyOpenSSL==17.2.0
 PySocks==1.6.7
 python-dateutil==2.6.1
