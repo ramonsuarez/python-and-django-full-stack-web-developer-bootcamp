@@ -44,7 +44,7 @@ smartypants==2.0.0
 text-unidecode==1.0
 typogrify==2.0.7
 Unidecode==0.4.21
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==15.1.0
 watchdog==0.8.3
 Werkzeug==0.12.2
